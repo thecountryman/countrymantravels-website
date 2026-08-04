@@ -1,0 +1,6 @@
+.DS_Store
+.wrangler/
+*.mov
+*.mp4
+node_modules/
+.env*
