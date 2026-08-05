@@ -1,0 +1,909 @@
+{
+  "vegas": {
+    "fallbacks": {
+      "hotels": {
+        "provider": "expedia",
+        "url": "https://expedia.com/affiliate/NcnWe9t",
+        "label": "Check Direct Rates & Availability"
+      },
+      "shows": {
+        "provider": "viator",
+        "url": "https://www.viator.com/Las-Vegas/d684-ttd?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=VegasShowsFallback",
+        "label": "Browse Las Vegas show tickets"
+      },
+      "attractions": {
+        "provider": "viator",
+        "url": "https://www.viator.com/Las-Vegas/d684-ttd?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=VegasAttractionsFallback",
+        "label": "Browse Las Vegas attraction tickets"
+      },
+      "weddings": {
+        "provider": "viator",
+        "url": "https://www.viator.com/Las-Vegas/d684-ttd?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=VegasWeddingsFallback",
+        "label": "Browse Las Vegas wedding experiences"
+      }
+    },
+    "hotels": {
+      "aria": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "bellagio": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "caesars-palace": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "california-hotel-casino": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "circa": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "circus-circus": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "downtown-grand": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "durango-casino-resort": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "el-cortez": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "ellis-island": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "encore": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "excalibur": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "flamingo": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "fontainebleau-las-vegas": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "four-queens": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "gold-coast": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "golden-nugget": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "green-valley-ranch": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "harrah-s-las-vegas": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "horseshoe-las-vegas": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "luxor": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "m-resort": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "main-street-station": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "mandalay-bay": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "mgm-grand": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "new-york-new-york": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "nobu-hotel-at-caesars-palace": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "palms-casino-resort": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "paris-las-vegas": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "park-mgm": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "planet-hollywood": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "plaza-hotel-casino": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "red-rock-casino-resort-spa": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "resorts-world": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "rio-hotel-casino": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "sahara-las-vegas": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "signature-at-mgm-grand": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "silverton-casino-lodge": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "south-point": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "sunset-station": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "the-cosmopolitan": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "the-d": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "the-linq-hotel-experience": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "the-orleans": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "the-palazzo": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "the-strat": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "the-vanderpump-hotel-formerly-the-cromwell": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "the-venetian": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "treasure-island": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "tuscany-suites-casino": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "vdara": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "virgin-hotels-las-vegas": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "w-las-vegas": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "waldorf-astoria": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "westgate-las-vegas": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ],
+      "wynn-las-vegas": [
+        {
+          "provider": "expedia",
+          "url": "https://expedia.com/affiliate/NcnWe9t"
+        }
+      ]
+    },
+    "shows": {
+      "mystere": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Mystere-by-Cirque-du-Soleil-at-Treasure-Island-Hotel-and-Casino/d684-76311P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MysterebyCirqueduSoleil",
+          "label": "Check Mystere ticket options"
+        }
+      ],
+      "the-wizard-of-oz-at-sphere": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/The-Wizard-of-Oz-at-The-Sphere-in-Las-Vegas/d684-5618292P2?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=spherewizardofoz",
+          "label": "Check Wizard of Oz at Sphere options"
+        }
+      ],
+      "o-by-cirque-du-soleil": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/O-by-Cirque-du-Soleil-at-the-Bellagio-Hotel-and-Casino/d684-5156LASO?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=ObyCirqueduSoleil",
+          "label": "Check O ticket options"
+        }
+      ],
+      "mad-apple-by-cirque-du-soleil": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Mad-Apple-by-Cirque-dui-Soleil-at-New-York-New-York-Hotel-and-Casino/d684-5156P11?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MadApplebyCirqueduSoleil",
+          "label": "Check Mad Apple ticket options"
+        }
+      ],
+      "michael-jackson-one-by-cirque-du-soleil": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Michael-Jackson-ONE-by-Cirque-du-Soleil-at-Mandalay-Bay-Resort-and-Casino/d684-5156LASMIC?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MichaelJacksonONEbyCirqueduSoleil",
+          "label": "Check Michael Jackson ONE ticket options"
+        }
+      ],
+      "atomic-saloon-show": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Atomic-Saloon-Show-at-The-Venetian-Resort/d684-76554P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=AtomicSaloon",
+          "label": "Check Atomic Saloon ticket options"
+        }
+      ],
+      "x-rocks": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/X-Rocks-at-Horseshoe-Hotel-and-Casino/d684-5084LASXROCK?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=XRocks",
+          "label": "Check X Rocks ticket options"
+        }
+      ],
+      "jabbawockeez": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Jabbawockeez-at-the-Luxor-Hotel-and-Casino/d684-5156LASJAB?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Jabbawockeez",
+          "label": "Check Jabbawockeez ticket options"
+        }
+      ],
+      "tape-face": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Tape-Face-at-MGM-Grand-Hotel-and-Casino/d684-5156P28?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=TapeFace",
+          "label": "Check Tape Face ticket options"
+        }
+      ],
+      "blue-man-group": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Blue-Man-Group-Las-Vegas/d684-5156LASBLU?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=BlueMan",
+          "label": "Check Blue Man Group ticket options"
+        }
+      ],
+      "shin-lim": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Shin-Lim-at-the-Palazzo-Hotel-and-Casino-Las-Vegas/d684-59835P17?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=ShinLim",
+          "label": "Check Shin Lim ticket options"
+        }
+      ],
+      "x-burlesque": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/X-Burlesque-at-the-Flamingo-Hotel-and-Casino/d684-5084LASX?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=XBurlesque",
+          "label": "Check X Burlesque ticket options"
+        }
+      ],
+      "zombie-burlesque": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Zombie-Burlesque-at-Planet-Hollywood-Resort-and-Casino/d684-3072LASZOM?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=ZombieBurlesque",
+          "label": "Check Zombie Burlesque ticket options"
+        }
+      ],
+      "piff-the-magic-dragon-show": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Piff-the-Magic-Dragon-at-the-Flamingo-Las-Vegas/d684-5084LASPIF?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Piff",
+          "label": "Check Piff the Magic Dragon options"
+        }
+      ],
+      "mac-king-comedy-magic-show": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Mac-King-Comedy-Magic-Show-at-the-Excalibur-Hotel-and-Casino/d684-5156LASWIN?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MacKingComedyMagicShow",
+          "label": "Check Mac King ticket options"
+        }
+      ],
+      "paranormal-mind-reading-magic": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Paranormal-The-Mindreading-Magic-Show-at-Ballys-Las-Vegas/d684-5084LASPARA?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Paranormal",
+          "label": "Check PARANORMAL ticket options"
+        }
+      ],
+      "criss-angel-mindfreak": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Criss-Angel-MINDFREAK-at-Planet-Hollywood-Resort-and-Casino-Las-Vegas/d684-76458P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MINDFREAK",
+          "label": "Check Criss Angel MINDFREAK ticket options"
+        }
+      ],
+      "colin-cloud-mastermind": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Colin-Cloud-Mastermind-at-Harrahs-Cabaret-Las-Vegas/d684-5084P43?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=ColinCloud",
+          "label": "Check Colin Cloud ticket options"
+        }
+      ],
+      "donny-osmond": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Donny-Osmond-at-Harrahs-Hotel-and-Casino-Las-Vegas/d684-5084LASDON?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Osmond",
+          "label": "Check Donny Osmond ticket options"
+        }
+      ],
+      "rouge-the-sexiest-show-in-vegas": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/ROUGE-The-Sexiest-Show-in-Vegas/d684-9412P14?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Rouge",
+          "label": "Check ROUGE ticket options"
+        }
+      ],
+      "fantasy": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Fantasy-at-the-Luxor-Hotel-and-Casino/d684-5156LASFAN?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Fantasy",
+          "label": "Check Fantasy ticket options"
+        }
+      ],
+      "thunder-from-down-under": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Thunder-from-Down-Under-at-the-Excalibur-Hotel-and-Casino/d684-5156LASTHU?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=ThunderfromDownUnder",
+          "label": "Check Thunder From Down Under ticket options"
+        }
+      ],
+      "chippendales": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Chippendales-at-the-LINQ-Hotel-and-Casino-in-Las-Vegas/d684-5084LASCHI?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Chippendales",
+          "label": "Check Chippendales ticket options"
+        }
+      ],
+      "mat-franco-redefining-magic": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Mat-Franco-Magic-Reinvented-Nightly-at-the-LINQ-Hotel-and-Casino/d684-17428P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MatFrancoMagicReinvented",
+          "label": "Check Mat Franco ticket options"
+        }
+      ],
+      "rupaul-s-drag-race-live": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/RuPauls-Drag-Race-LIVE-at-the-Flamingo-Las-Vegas/d684-5084P22?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=RuPaul",
+          "label": "Check RuPaul\u2019s Drag Race Live ticket options"
+        }
+      ],
+      "magic-mike-live": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Magic-Mike-Live-at-SAHARA-Las-Vegas/d684-44350P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MagicMike",
+          "label": "Check MAGIC MIKE LIVE ticket options"
+        }
+      ],
+      "tournament-of-kings": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Tournament-of-Kings-at-the-Excalibur-Hotel-and-Casino/d684-5156LASTOU?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=TournamentofKings",
+          "label": "Check Tournament of Kings ticket options"
+        }
+      ],
+      "nathan-burton-comedy-magic": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Nathan-Burton-Comedy-Magic/d684-439678P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=NathanBurtonComedyMagic",
+          "label": "Check Nathan Burton ticket options"
+        }
+      ],
+      "mj-live-michael-jackson-tribute": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/MJ-Live-at-the-Sahara-Hotel-and-Casino/d684-6920LASMJL?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MJLive",
+          "label": "Check MJ LIVE ticket options"
+        }
+      ],
+      "v-the-ultimate-variety-show": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/V-The-Ultimate-Variety-Show-at-Planet-Hollywood-Resort-and-Casino/d684-3072LASVTH?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=VTheUltimateVarietyShow",
+          "label": "Check V - The Ultimate Variety Show ticket options"
+        }
+      ],
+      "vegas-the-show": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Vegas-The-Show-at-Planet-Hollywood-Resort-and-Casino/d684-3072LASVEG?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=VEGASTheSHOW",
+          "label": "Check VEGAS! The Show ticket options"
+        }
+      ],
+      "the-mentalist": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/The-Mentalist-at-Planet-Hollywood-Hotel-and-Casino/d684-3072LASMEN?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Mentalist",
+          "label": "Check The Mentalist ticket options"
+        }
+      ],
+      "brad-garrett-s-comedy-club": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Brad-Garretts-Comedy-Club-at-MGM-Grand-Hotel-and-Casino/d684-5156LASBRA?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=BradGarrett",
+          "label": "Check Brad Garrett\u2019s Comedy Club options"
+        }
+      ],
+      "donny-osmond-residency": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Donny-Osmond-at-Harrahs-Hotel-and-Casino-Las-Vegas/d684-5084LASDON?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Osmond",
+          "label": "Check Donny Osmond ticket options"
+        }
+      ]
+    },
+    "attractions": {
+      "high-roller": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/The-High-Roller-at-The-LINQ/d684-5084LASHIG?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=HighRollerWheelAdmission",
+          "label": "Check High Roller ticket options"
+        }
+      ],
+      "omega-mart": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Meow-Wolfs-Omega-Mart-at-AREA15/d684-290829P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MeowWolfsOmegaMart",
+          "label": "Check Omega Mart admission options"
+        }
+      ],
+      "the-neon-museum": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Admission-to-The-Neon-Museum-Las-Vegas/d684-5510054P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=TheNeonMuseum",
+          "label": "Check Neon Museum admission options"
+        }
+      ],
+      "john-wick-experience": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/The-John-Wick-Experience-in-Las-Vegas/d684-5487876P2?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=JohnWickExperience",
+          "label": "Check John Wick Experience options"
+        }
+      ],
+      "skyjump-las-vegas": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/SkyJump-Las-Vegas/d684-9412P5?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=SkyJumpTheSTRAT",
+          "label": "Check SkyJump options"
+        }
+      ],
+      "the-mob-museum": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/The-Mob-Museum-Admission/d684-5932MOB?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MobMuseum",
+          "label": "Check Mob Museum admission options"
+        }
+      ],
+      "shark-reef-aquarium": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Shark-Reef-at-Mandalay-Bay-Hotel-and-Casino/d684-423556P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=SharkReef",
+          "label": "Check Shark Reef admission options"
+        }
+      ],
+      "atomic-museum": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Las-Vegas-National-Atomic-Testing-Museum-Admission-Ticket/d684-413386P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=AtomicMuseum",
+          "label": "Check Atomic Museum admission options"
+        }
+      ],
+      "madame-tussauds": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Madame-Tussauds-Las-Vegas/d684-3593ENTRY?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MadameTussauds",
+          "label": "Check Madame Tussauds admission options"
+        }
+      ],
+      "fly-linq": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Fly-LINQ-at-The-LINQ/d684-5084LASZIP?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=FlyLINQZipline",
+          "label": "Check Fly LINQ zipline options"
+        }
+      ],
+      "big-apple-coaster": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/The-Big-Apple-Coaster-at-New-York-New-York-Hotel-and-Casino/d684-5156LASMEN?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=BigAppleCoaster",
+          "label": "Check Big Apple Coaster options"
+        }
+      ],
+      "strat-tower-observation-deck": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Stratosphere-Tower-Observation-Deck/d684-9412P6?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=STRATTowerObservation",
+          "label": "Check STRAT Tower observation-deck options"
+        }
+      ],
+      "valley-of-fire": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Valley-of-Fire-Lost-City-Museum-SMALL-GROUP-TOUR/d684-142926P3?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=ValleyofFireMojaveDesertVIPTour",
+          "label": "Compare Valley of Fire small-group tours"
+        }
+      ],
+      "infinity-museum": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Infinity-Museum-General-Admission/d684-5616676P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=InfinityMuseum",
+          "label": "Check Infinity Museum admission options"
+        }
+      ],
+      "cartzilla-giant-shopping-cart-limo-ride": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Giant-Shopping-Cart-Limo-Ride-in-Las-Vegas/d684-470339P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Cartzilla",
+          "label": "Check Cartzilla ride options"
+        }
+      ],
+      "las-vegas-vip-club-crawl-with-party-bus": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Las-Vegas-VIP-Club-Crawl-with-Express-Entry-and-Drinks/d684-5526300P24?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=VIPClubCrawlwithPartyBus",
+          "label": "Compare VIP club-crawl options"
+        }
+      ],
+      "death-valley-national-park-day-trip": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Small-Group-Death-Valley-National-Park-Day-Trip-from-Las-Vegas/d684-5602DVNPDT?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=DeathValleyNationalParkDayTour",
+          "label": "Compare Death Valley day-trip options"
+        }
+      ],
+      "grand-canyon-west-rim-helicopter-tour": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Grand-Canyon-Helicopter-Tour-from-Las-Vegas-with-Champagne-Picnic/d684-6613GRANDCELE?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=GrandCanyonWestRimHelicopterTour",
+          "label": "Compare Grand Canyon helicopter options"
+        }
+      ],
+      "grand-canyon-west-rim-tour": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Grand-Canyon-West-Rim-Tour-with-Options-from-Las-Vegas/d684-60136P20?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=GrandCanyonHooverDamSkywalk",
+          "label": "Compare Grand Canyon West Rim tour options"
+        }
+      ],
+      "bryce-canyon-and-zion-national-parks-day-tour": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Bryce-Canyon-Day-tour-from-Las-Vegas/d684-60136P22?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=BryceZion",
+          "label": "Compare Bryce Canyon and Zion day-tour options"
+        }
+      ],
+      "elvis-themed-wedding-or-vow-renewal": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Elvis-Wedding-at-Graceland-Wedding-Chapel/d684-2084_EA?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=ElvisThemedWeddingorVowRenewalatGracelandWeddingChapel",
+          "label": "Check Elvis wedding and vow-renewal options"
+        }
+      ],
+      "off-road-utv-and-3-gun-shooting-package": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Off-Road-and-Shoot/d684-13920P9?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=OffRoadUTVand3GunShootingPackage",
+          "label": "Compare UTV and shooting-package options"
+        }
+      ],
+      "machine-gun-experience-with-military-humvee": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Machine-Gun-Experience-with-Military-Humvee-in-Las-Vegas/d684-10652P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MachineGunExperience",
+          "label": "Check machine-gun experience options"
+        }
+      ],
+      "sniper-experience-outdoor-shooting-package": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Sniper-Experience-Outdoor-Shooting-Package/d684-13920P4?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=SniperExperience",
+          "label": "Compare sniper-experience options"
+        }
+      ],
+      "hoover-dam": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Hoover-Dam-Full-Experience/d684-5534656P3?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=HooverDamTunnelsPowerPlantTour",
+          "label": "Check Hoover Dam tour options"
+        }
+      ],
+      "antelope-canyon-and-horseshoe-bend-day-tour": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Antelope-Canyon-Horseshoe-Bend-Day-Tour-from-Las-Vegas/d684-60136P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=AntelopeCanyonHorseshoeBendDayTour",
+          "label": "Compare Antelope Canyon day-tour options"
+        }
+      ],
+      "emerald-cave-kayak-tour": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Emerald-Cave-Kayak-Tour/d684-170456P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=EmeraldCaveKayakTour",
+          "label": "Check Emerald Cave kayak-tour options"
+        }
+      ],
+      "las-vegas-helicopter-night-flight": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Deluxe-Las-Vegas-Helicopter-Night-Flight-with-VIP-Transportation/d684-5516ST5?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=LasVegasHelicopterNightStrip",
+          "label": "Compare helicopter night-flight options"
+        }
+      ],
+      "big-bus-las-vegas-night-tour": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Big-Bus-Las-Vegas-Night-Tour/d684-5096LASNIGHT?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=BigBusLasVegasNight",
+          "label": "Compare Big Bus night-tour options"
+        }
+      ],
+      "exotic-car-driving-experience": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Exotic-Car-Driving-Experience-Package-in-Las-Vegas/d684-5214LASDRIVE?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=ExoticCarDriving",
+          "label": "Compare exotic-car driving options"
+        }
+      ],
+      "seven-magic-mountains": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/California-Desert-Seven-Magic-Mountains-Las-Vegas-Sign/d684-169224P5?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=SevenMagicMountains",
+          "label": "Compare Seven Magic Mountains tour options"
+        }
+      ],
+      "universal-horror-unleashed": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Universal-Horror-Unleashed-at-AREA15-in-Las-Vegas/d684-5612911P2?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=UniversalHorror",
+          "label": "Check Universal Horror Unleashed options"
+        }
+      ],
+      "titanic-the-artifact-exhibition": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Titanic-The-Artifact-Exhibition-at-the-Luxor-Hotel-and-Casino/d684-5156TITANIC?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Titanic",
+          "label": "Check Titanic exhibition admission options"
+        }
+      ],
+      "eiffel-tower-experience": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Eiffel-Tower-Experience-at-Paris-Las-Vegas/d684-5084LASEIF?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=EiffelTower",
+          "label": "Check Eiffel Tower Experience options"
+        }
+      ],
+      "escape-it-chapter-1": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Escape-IT-Chapter-1/d684-65629P2?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=EscapeiT",
+          "label": "Check Escape IT options"
+        }
+      ],
+      "allegiant-stadium-tours": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Allegiant-Stadium-Tours/d684-5645689P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=AllegiantStadium",
+          "label": "Check Allegiant Stadium tour options"
+        }
+      ],
+      "saw-escape-experience": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Escape-Rooms-The-Official-SAW-Escape-Experience-Las-Vegas/d684-65629P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=SAWEscape",
+          "label": "Check SAW Escape options"
+        }
+      ],
+      "bodies-the-exhibition": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Bodies-The-Exhibition-at-the-Luxor-Hotel-and-Casino/d684-5156BODIES?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Bodies",
+          "label": "Check Bodies: The Exhibition admission options"
+        }
+      ],
+      "play-playground": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Play-Playground-Entry-Ticket-with-Play-Pass/d684-5580761P3?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=PlayPlayground",
+          "label": "Check Play Playground options"
+        }
+      ]
+    },
+    "weddings": {
+      "las-vegas-sign": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Las-Vegas-Get-Married-at-the-Fabulous-Las-Vegas-Sign-Photos/d684-433254P3?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MarriedegasSign",
+          "label": "View Fabulous Las Vegas Sign wedding options"
+        }
+      ],
+      "drive-up": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/World-Famous-Drive-up-Wedding-in-Las-Vegas/d684-2596DRIVEUP?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=DriveUpWedding",
+          "label": "View drive-up wedding options"
+        }
+      ],
+      "special-memory": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Las-Vegas-Wedding-at-A-Special-Memory-Wedding-Chapel/d684-2596TRAD?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=SpecialMemoryWeddingChapel",
+          "label": "View A Special Memory wedding options"
+        }
+      ],
+      "bliss-chapel": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Signature-Bliss-Wedding-and-Vow-Renewal/d684-202878P1?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=BlissChapelWedding",
+          "label": "View Bliss Chapel wedding options"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "viator": {
+    "status": "active",
+    "pid": "P00312896",
+    "mcid": "42383",
+    "dashboard": "https://selector.viator.com",
+    "notes": "Approved Viator account. pid/mcid are shared across every product link and the destination-page fallback links."
+  },
+  "expedia": {
+    "status": "active",
+    "affiliateUrl": "https://expedia.com/affiliate/NcnWe9t",
+    "dashboard": "https://creator.expediagroup.com/app/dash",
+    "notes": "Used as the hotel booking CTA on all 56 Vegas hotel pages, and as the interim fallback for Booking.com until that account exists."
+  },
+  "getyourguide": {
+    "status": "pending",
+    "dashboard": "https://partner.getyourguide.com/en-us/opportunities",
+    "notes": "Account created, no partner ID / deep links issued yet. Not usable until activated — do not add getyourguide entries to affiliate-links.json until this is active."
+  },
+  "booking": {
+    "status": "not_set_up",
+    "notes": "No Booking.com affiliate account exists. Hotel CTAs use Expedia instead (see the \"expedia\" entry). Revisit once a Booking.com affiliate ID is issued."
+  },
+  "amazon": {
+    "status": "active_no_tracking_tag",
+    "productUrl": "https://www.amazon.com/dp/B0HC4DKJ8P",
+    "notes": "Direct ASIN link for the guidebook (eBook + paperback). No Associates tracking tag configured yet, so these clicks aren't currently earning commission."
+  }
+}
