@@ -1,4 +1,18 @@
 {
+  "new-orleans": {
+    "fallbacks": {
+      "hotels": {
+        "provider": "expedia",
+        "url": "https://expedia.com/affiliate/NcnWe9t",
+        "label": "Check Direct Rates & Availability"
+      },
+      "things-to-do": {
+        "provider": "viator",
+        "url": "https://www.viator.com/New-Orleans/d675-ttd?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=NewOrleansGuideFallback",
+        "label": "Browse New Orleans tours & tickets"
+      }
+    }
+  },
   "vegas": {
     "fallbacks": {
       "hotels": {

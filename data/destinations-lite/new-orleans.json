@@ -1,0 +1,30 @@
+{
+  "name": "New Orleans, LA",
+  "slug": "new-orleans",
+  "state": "Louisiana",
+  "intro": "A walkable, food- and music-driven city trip. Most first visits center on the French Quarter, with day trips out to the Garden District and Warehouse District museums.",
+  "heroPhotoQuery": "New Orleans skyline",
+  "bestTimeToVisit": "October through early April is the sweet spot — mild temperatures, lower humidity, and thinner crowds outside of festival weekends. Spring (especially around Mardi Gras and Jazz Fest) is the most crowded and highest-priced stretch. Hurricane season runs June–November, with August and September the most volatile — build flexibility into trips booked in that window.",
+  "avgTripCost": "Mid-range travelers commonly spend $120–$270 per person per day (3-star hotel, sit-down meals, a few paid activities). Budget travel using hostels, casual food, and the streetcar can run closer to $50–$120 per day. Hotel rooms alone commonly run $120–$250 per night depending on season and neighborhood.",
+  "gettingAround": "The French Quarter is compact and walkable — most sights are within a 15–20 minute walk of each other, so a car is optional if you're staying central. Streetcars connect the Quarter to the Garden District, Uptown, and City Park for $1.25 a ride, or a Jazzy Pass ($3/day, $8/3-day, $15/7-day) for unlimited rides. Rideshare and taxis fill the gaps for anything outside walking or streetcar range.",
+  "topAreas": [
+    { "name": "French Quarter", "why": "The most walkable base and the center of the action — music, food, and history within a compact grid. Expect noise and higher rates near Bourbon Street; quieter blocks are a short walk away.", "photoQuery": "French Quarter New Orleans street" },
+    { "name": "Garden District / Uptown", "why": "Quieter, tree-lined, and historic, with easy streetcar access back into the Quarter. A good fit if you want distance from late-night noise without losing convenience.", "photoQuery": "Garden District New Orleans mansion" },
+    { "name": "Warehouse District", "why": "New Orleans' arts and museum hub, home to the National WWII Museum and a strong restaurant scene, a short walk or streetcar ride from the Quarter.", "photoQuery": "Warehouse District New Orleans" },
+    { "name": "Faubourg Marigny", "why": "A quieter, more local alternative just past the Quarter, known for boutique guesthouses and a strong live-music strip on Frenchmen Street.", "photoQuery": "Faubourg Marigny New Orleans" }
+  ],
+  "topThings": [
+    { "name": "Jackson Square & Café du Monde", "note": "The classic first stop — beignets, street performers, and the square itself. Go early to beat both heat and crowds.", "photoQuery": "Jackson Square New Orleans Cafe Du Monde" },
+    { "name": "St. Charles Avenue streetcar ride", "note": "A cheap, scenic way to see the Garden District's historic mansions without booking a tour.", "photoQuery": "St. Charles Avenue streetcar New Orleans" },
+    { "name": "National WWII Museum", "note": "A large, well-regarded museum in the Warehouse District — plan a half day, not a quick stop.", "photoQuery": "National WWII Museum New Orleans exterior" },
+    { "name": "Frenchmen Street live music", "note": "The local alternative to Bourbon Street for hearing real jazz and brass bands, in the Marigny.", "photoQuery": "Frenchmen Street live music New Orleans jazz" },
+    { "name": "French Quarter food or ghost tour", "note": "A guided tour is worth it for context on the city's history; book ahead for popular evening slots.", "photoQuery": "French Quarter New Orleans evening" }
+  ],
+  "quickAnswers": [
+    { "q": "What's the best time to visit New Orleans?", "a": "October through early April for the best mix of weather, price, and crowd levels — avoid peak festival weekends if you want lower rates and easier reservations." },
+    { "q": "Do I need a car in New Orleans?", "a": "Not if you're staying in or near the French Quarter. Walking, the streetcar, and rideshare cover almost everything most visitors need." },
+    { "q": "What should I budget per day?", "a": "Plan on roughly $120–$270 per person per day for a mid-range trip, or $50–$120 for a tighter budget using hostels and casual food." },
+    { "q": "Where should I stay?", "a": "The French Quarter for walkability and nightlife, the Garden District or Uptown for a quieter base, or the Warehouse District if museums and restaurants are the priority." },
+    { "q": "Is hurricane season a real risk for my trip?", "a": "Hurricane season runs June–November, with August and September the most active. It doesn't rule out a trip, but build in travel-insurance and flexible-booking options if traveling in that window." }
+  ]
+}
