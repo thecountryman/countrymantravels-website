@@ -18,8 +18,10 @@
     "notes": "Account created, no partner ID / deep links issued yet. Not usable until activated — do not add getyourguide entries to affiliate-links.json until this is active."
   },
   "booking": {
-    "status": "not_set_up",
-    "notes": "No Booking.com affiliate account exists. Hotel CTAs use Expedia instead (see the \"expedia\" entry). Revisit once a Booking.com affiliate ID is issued."
+    "status": "pending_application",
+    "network": "CJ Affiliate (Commission Junction)",
+    "advertiser": "Booking.com North America (7864295)",
+    "notes": "Application submitted via CJ, not yet approved — no aid= tracking ID issued and no links/creatives selected yet. The CJ catalog for this advertiser is standard banner/link inventory (homepage widgets, taxi/flight banners), not property-level content or photos, so approval won't help with the photo/data-scale problem. Once approved, replace the Expedia fallback on the 56 hotel pages (see the \"expedia\" entry) with a real Booking.com deep link using the issued aid=."
   },
   "amazon": {
     "status": "active_no_tracking_tag",
