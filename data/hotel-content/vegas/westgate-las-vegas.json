@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Westgate Las Vegas Resort Monorail Station",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Las_Vegas_Hilton_Station.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Las Vegas Hilton Station.jpg",
+      "license": "CC BY 2.0",
+      "author": "Thierry (http2007) from Le Plessis Robinson, France",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALas%20Vegas%20Hilton%20Station.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Las_Vegas_Hilton-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Las Vegas Hilton-2.jpg",
+      "license": "Public domain",
+      "author": "Lvtalon at English Wikipedia",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALas%20Vegas%20Hilton-2.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Westgate_Las_Vegas.jpg/1280px-Westgate_Las_Vegas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Westgate Las Vegas.jpg",
+      "license": "CC BY 2.0",
+      "author": "Jeff Hitchcock",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWestgate%20Las%20Vegas.jpg"
+    }
+  ]
+}

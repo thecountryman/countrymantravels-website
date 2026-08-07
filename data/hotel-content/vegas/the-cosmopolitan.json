@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Cosmopolitan of Las Vegas",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Cosmopolitan_Las_Vegas.jpg/1280px-The_Cosmopolitan_Las_Vegas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "The Cosmopolitan Las Vegas.jpg",
+      "license": "CC BY 2.0",
+      "author": "Allen McGregor",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AThe%20Cosmopolitan%20Las%20Vegas.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Cosmopolitan%E2%80%99s_ice_skating_rink-pool_%2824135444556%29.jpg/1280px-The_Cosmopolitan%E2%80%99s_ice_skating_rink-pool_%2824135444556%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "The Cosmopolitan’s ice skating rink-pool (24135444556).jpg",
+      "license": "CC BY 2.0",
+      "author": "Thomas Duesing from San Antonio, Texas",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AThe%20Cosmopolitan%E2%80%99s%20ice%20skating%20rink-pool%20(24135444556).jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cosmopolitan_Hotel_%2819667422546%29.jpg/1280px-Cosmopolitan_Hotel_%2819667422546%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Cosmopolitan Hotel (19667422546).jpg",
+      "license": "CC BY 2.0",
+      "author": "Heath Cajandig",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ACosmopolitan%20Hotel%20(19667422546).jpg"
+    }
+  ]
+}

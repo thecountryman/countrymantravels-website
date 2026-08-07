@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Caesars Palace (Las Vegas)",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Caesar_casino.jpg/1280px-Caesar_casino.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Caesar casino.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Hooriscool",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ACaesar%20casino.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Caesars_Palace_Las_Vegas_%284133346297%29.jpg/1280px-Caesars_Palace_Las_Vegas_%284133346297%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Caesars Palace Las Vegas (4133346297).jpg",
+      "license": "CC BY 2.0",
+      "author": "Håkan Dahlström from Malmö, Sweden",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ACaesars%20Palace%20Las%20Vegas%20(4133346297).jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Caesars_Palace_-_Flickr_-_L_A_Turner.jpg/1280px-Caesars_Palace_-_Flickr_-_L_A_Turner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Caesars Palace - Flickr - L A Turner.jpg",
+      "license": "CC BY 2.0",
+      "author": "L A Turner from east texas",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ACaesars%20Palace%20-%20Flickr%20-%20L%20A%20Turner.jpg"
+    }
+  ]
+}

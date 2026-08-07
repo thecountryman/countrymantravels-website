@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Wynn Las Vegas",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Wynn_West_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Wynn West 2020.png",
+      "license": "Public domain",
+      "author": "Wynn West",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWynn%20West%202020.png"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/MOV07123%2C_The_Wynn_Hotel%2C_Las_Vegas%2C_Nevada%2C_USA_%283991679556%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "MOV07123, The Wynn Hotel, Las Vegas, Nevada, USA (3991679556).jpg",
+      "license": "CC BY 2.0",
+      "author": "Jim G from Silicon Valley, CA, USA",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMOV07123%2C%20The%20Wynn%20Hotel%2C%20Las%20Vegas%2C%20Nevada%2C%20USA%20(3991679556).jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/MOV07121%2C_The_Wynn_Hotel%2C_Las_Vegas%2C_Nevada%2C_USA_%283778356338%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "MOV07121, The Wynn Hotel, Las Vegas, Nevada, USA (3778356338).jpg",
+      "license": "CC BY 2.0",
+      "author": "Jim G from Silicon Valley, CA, USA",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMOV07121%2C%20The%20Wynn%20Hotel%2C%20Las%20Vegas%2C%20Nevada%2C%20USA%20(3778356338).jpg"
+    }
+  ]
+}

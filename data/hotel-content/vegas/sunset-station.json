@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Sunset Station",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Sunset_Station%2C_Henderson_NV.jpg/1280px-Sunset_Station%2C_Henderson_NV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Sunset Station, Henderson NV.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "John Phelan",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASunset%20Station%2C%20Henderson%20NV.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Sunset_Station_in_Henderson_Nevada_25MAR19.jpg/1280px-Sunset_Station_in_Henderson_Nevada_25MAR19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Sunset Station in Henderson Nevada 25MAR19.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Thomas M Bishop",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASunset%20Station%20in%20Henderson%20Nevada%2025MAR19.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sunset_Station_casino_sign_%282009%29.jpg/1280px-Sunset_Station_casino_sign_%282009%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Sunset Station casino sign (2009).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Steven Harrell",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASunset%20Station%20casino%20sign%20(2009).jpg"
+    }
+  ]
+}

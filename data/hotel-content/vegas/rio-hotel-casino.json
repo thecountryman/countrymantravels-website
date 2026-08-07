@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Exterior of the Rio All-Suite Hotel and Casino",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Masquerade_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Masquerade Tower.jpg",
+      "license": "Public domain",
+      "author": "Benutzer:SkyRunner",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMasquerade%20Tower.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/LasVegasHotelRio.JPG/1280px-LasVegasHotelRio.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "LasVegasHotelRio.JPG",
+      "license": "Public domain",
+      "author": "Anthony Nachor",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALasVegasHotelRio.JPG"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/May172008-Rio.jpg/1280px-May172008-Rio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "May172008-Rio.jpg",
+      "license": "CC BY 3.0",
+      "author": "HoppingRabbit34",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMay172008-Rio.jpg"
+    }
+  ]
+}

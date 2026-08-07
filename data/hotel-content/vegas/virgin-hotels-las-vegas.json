@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Ruby Tower (Virgin Hotels Las Vegas)",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Hard_Rock_Hotel_and_Casino_-_Las_Vegas_01.jpg/1280px-Hard_Rock_Hotel_and_Casino_-_Las_Vegas_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Hard Rock Hotel and Casino - Las Vegas 01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Farragutful",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHard%20Rock%20Hotel%20and%20Casino%20-%20Las%20Vegas%2001.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hard_Rock_hotel_towers_%28Las_Vegas%29.jpg/1280px-Hard_Rock_hotel_towers_%28Las_Vegas%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Hard Rock hotel towers (Las Vegas).jpg",
+      "license": "CC BY 2.0",
+      "author": "Jeff Hitchcock",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHard%20Rock%20hotel%20towers%20(Las%20Vegas).jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ruby_Tower%2C_Virgin_Hotels_Las_Vegas_2022-04-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Ruby Tower, Virgin Hotels Las Vegas 2022-04-01.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Xnatedawgx",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ARuby%20Tower%2C%20Virgin%20Hotels%20Las%20Vegas%202022-04-01.jpg"
+    }
+  ]
+}

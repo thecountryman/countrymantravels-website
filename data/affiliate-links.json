@@ -3,7 +3,7 @@
     "fallbacks": {
       "hotels": {
         "provider": "expedia",
-        "url": "https://expedia.com/affiliate/NcnWe9t",
+        "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FHotel-Search%3Fdestination%3DNew%2520Orleans%252C%2520Louisiana",
         "label": "Check Direct Rates & Availability"
       },
       "things-to-do": {
@@ -17,7 +17,7 @@
     "fallbacks": {
       "hotels": {
         "provider": "expedia",
-        "url": "https://expedia.com/affiliate/NcnWe9t",
+        "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FHotel-Search%3Fdestination%3DLas%2520Vegas%252C%2520Nevada",
         "label": "Check Direct Rates & Availability"
       },
       "shows": {
@@ -40,337 +40,449 @@
       "aria": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-ARIA-Resort-Casino.h2565776.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to ARIA Resort Casino property page"
         }
       ],
       "bellagio": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Bellagio.h140596.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Bellagio property page"
         }
       ],
       "caesars-palace": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Caesars-Palace-Resort-Casino.h41245.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Caesars Palace Resort Casino property page"
         }
       ],
       "california-hotel-casino": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-California-Hotel-And-Casino.h661793.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to California Hotel And Casino property page"
         }
       ],
       "circa": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Circa-Resort-Casino.h57421332.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Circa Resort Casino property page"
         }
       ],
       "circus-circus": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Circus-Circus-Hotel.h24715.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Circus Circus Hotel property page"
         }
       ],
       "downtown-grand": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Downtown-Grand-Las-Vegas.h10790.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Downtown Grand Las Vegas property page"
         }
       ],
       "durango-casino-resort": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Durango-Casino-Resort.h99566180.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Durango Casino Resort property page"
         }
       ],
       "el-cortez": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-El-Cortez-Hotel-And-Casino.h905990.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to El Cortez Hotel And Casino property page"
         }
       ],
       "ellis-island": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Ellis-Island-Hotel.h18443.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Ellis Island Hotel property page"
         }
       ],
       "encore": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Encore-At-Wynn-Las-Vegas.h2223789.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Encore At Wynn Las Vegas property page"
         }
       ],
       "excalibur": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Excalibur-Hotel-Casino.h41308.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Excalibur Hotel Casino property page"
         }
       ],
       "flamingo": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Flamingo-Las-Vegas-Hotel-Casino.h13945.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Flamingo Las Vegas Hotel Casino property page"
         }
       ],
       "fontainebleau-las-vegas": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Fontainebleau-Las-Vegas.h95163580.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Fontainebleau Las Vegas property page"
         }
       ],
       "four-queens": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Four-Queens-Hotel-And-Casino.h40922.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Four Queens Hotel And Casino property page"
         }
       ],
       "gold-coast": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Gold-Coast-Hotel-And-Casino.h41076.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Gold Coast Hotel And Casino property page"
         }
       ],
       "golden-nugget": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Golden-Nugget-Las-Vegas-Hotel-Casino.h43312.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Golden Nugget Las Vegas Hotel Casino property page"
         }
       ],
       "green-valley-ranch": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Green-Valley-Ranch-Resort-And-Spa.h846020.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Green Valley Ranch Resort And Spa property page"
         }
       ],
       "harrah-s-las-vegas": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Harrahs-Hotel-And-Casino-Las-Vegas.h41307.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Harrahs Hotel And Casino Las Vegas property page"
         }
       ],
       "horseshoe-las-vegas": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Horseshoe-Las-Vegas.h7611.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Horseshoe Las Vegas property page"
         }
       ],
       "luxor": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Luxor-Hotel-And-Casino.h15237.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Luxor Hotel And Casino property page"
         }
       ],
       "m-resort": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-M-Resort-Spa-Casino.h12028553.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to M Resort Spa Casino property page"
         }
       ],
       "main-street-station": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Main-Street-Station-Hotel.h67274.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Main Street Station Hotel property page"
         }
       ],
       "mandalay-bay": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Mandalay-Bay-Resort-And-Casino.h203613.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Mandalay Bay Resort And Casino property page"
         }
       ],
       "mgm-grand": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-MGM-Grand-Hotel-Casino.h12628.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to MGM Grand Hotel Casino property page"
         }
       ],
       "new-york-new-york": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-New-York-New-York-Hotel-Casino.h41080.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to New York New York Hotel Casino property page"
         }
       ],
       "nobu-hotel-at-caesars-palace": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Nobu-Hotel-At-Caesars-Palace.h6133862.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Nobu Hotel At Caesars Palace property page"
         }
       ],
       "palms-casino-resort": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Palms-Casino-Resort.h792446.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Palms Casino Resort property page"
         }
       ],
       "paris-las-vegas": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Paris-Las-Vegas-Resort-Casino.h200710.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Paris Las Vegas Resort Casino property page"
         }
       ],
       "park-mgm": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Park-MGM-Las-Vegas.h58201.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Park MGM Las Vegas property page"
         }
       ],
       "planet-hollywood": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Planet-Hollywood-Resort-Casino.h15117.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Planet Hollywood Resort Casino property page"
         }
       ],
       "plaza-hotel-casino": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Plaza-Hotel-And-Casino-Las-Vegas.h19.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Plaza Hotel And Casino Las Vegas property page"
         }
       ],
       "red-rock-casino-resort-spa": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Red-Rock-Casino.h1380135.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Red Rock Casino property page"
         }
       ],
       "resorts-world": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Las-Vegas-Hilton-At-Resorts-World.h60884491.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Las Vegas Hilton At Resorts World property page"
         }
       ],
       "rio-hotel-casino": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Rio-All-Suite-Hotel-Casino.h19837.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Rio All Suite Hotel Casino property page"
         }
       ],
       "sahara-las-vegas": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-SAHARA-Las-Vegas.h20194.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to SAHARA Las Vegas property page"
         }
       ],
       "signature-at-mgm-grand": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-The-Signature-At-MGM-Grand.h1418701.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to The Signature At MGM Grand property page"
         }
       ],
       "silverton-casino-lodge": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Silverton-Casino-Hotel.h120564.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Silverton Casino Hotel property page"
         }
       ],
       "south-point": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-South-Point-Hotel.h1309521.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to South Point Hotel property page"
         }
       ],
       "sunset-station": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Sunset-Station-Hotel-Casino.h42630.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Sunset Station Hotel Casino property page"
         }
       ],
       "the-cosmopolitan": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-The-Cosmopolitan-Of-Las-Vegas.h3818880.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to The Cosmopolitan Of Las Vegas property page"
         }
       ],
       "the-d": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-The-D-Las-Vegas.h41277.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to The D Las Vegas property page"
         }
       ],
       "the-linq-hotel-experience": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-The-LINQ-Hotel-Experience.h8753178.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to The LINQ Hotel Experience property page"
         }
       ],
       "the-orleans": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-The-Orleans-Hotel-Casino.h41313.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to The Orleans Hotel Casino property page"
         }
       ],
       "the-palazzo": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-The-Palazzo-At-The-Venetian.h1769973.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to The Palazzo At The Venetian property page"
         }
       ],
       "the-strat": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-The-STRAT-Hotel.h41081.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to The STRAT Hotel property page"
         }
       ],
       "the-vanderpump-hotel-formerly-the-cromwell": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-The-Cromwell.h41078.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to The Cromwell property page"
         }
       ],
       "the-venetian": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-The-Venetian-Resort-Las-Vegas.h1443.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to The Venetian Resort Las Vegas property page"
         }
       ],
       "treasure-island": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-TI-Treasure-Island-Hotel-And-Casino.h15930.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to TI Treasure Island Hotel And Casino property page"
         }
       ],
       "tuscany-suites-casino": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Tuscany-Suites-Casino.h852937.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Tuscany Suites Casino property page"
         }
       ],
       "vdara": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Vdara-Hotel-Spa-At-ARIA-Las-Vegas.h2565824.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Vdara Hotel Spa At ARIA Las Vegas property page"
         }
       ],
       "virgin-hotels-las-vegas": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Virgin-Hotels-Las-Vegas.h198225.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Virgin Hotels Las Vegas property page"
         }
       ],
       "w-las-vegas": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Delano-Las-Vegas-At-Mandalay-Bay.h1248211.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Delano Las Vegas At Mandalay Bay property page"
         }
       ],
       "waldorf-astoria": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Waldorf-Astoria-Las-Vegas.h3016186.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Waldorf Astoria Las Vegas property page"
         }
       ],
       "westgate-las-vegas": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Westgate-Las-Vegas-Resort-Casino.h19558.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Westgate Las Vegas Resort Casino property page"
         }
       ],
       "wynn-las-vegas": [
         {
           "provider": "expedia",
-          "url": "https://expedia.com/affiliate/NcnWe9t"
+          "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FLas-Vegas-Hotels-Wynn-Las-Vegas.h1184243.Hotel-Information",
+          "label": "Check Direct Rates & Availability",
+          "note": "Deep link to Wynn Las Vegas property page"
         }
       ]
     },
@@ -547,7 +659,7 @@
         {
           "provider": "viator",
           "url": "https://www.viator.com/tours/Las-Vegas/RuPauls-Drag-Race-LIVE-at-the-Flamingo-Las-Vegas/d684-5084P22?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=RuPaul",
-          "label": "Check RuPaul\u2019s Drag Race Live ticket options"
+          "label": "Check RuPaul’s Drag Race Live ticket options"
         }
       ],
       "magic-mike-live": [
@@ -603,7 +715,7 @@
         {
           "provider": "viator",
           "url": "https://www.viator.com/tours/Las-Vegas/Brad-Garretts-Comedy-Club-at-MGM-Grand-Hotel-and-Casino/d684-5156LASBRA?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=BradGarrett",
-          "label": "Check Brad Garrett\u2019s Comedy Club options"
+          "label": "Check Brad Garrett’s Comedy Club options"
         }
       ],
       "donny-osmond-residency": [
@@ -611,6 +723,97 @@
           "provider": "viator",
           "url": "https://www.viator.com/tours/Las-Vegas/Donny-Osmond-at-Harrahs-Hotel-and-Casino-Las-Vegas/d684-5084LASDON?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Osmond",
           "label": "Check Donny Osmond ticket options"
+        }
+      ],
+      "absinthe": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Absinthe-at-Caesars-Palace-in-Las-Vegas/d684-5084LASABS?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=Absinthe",
+          "label": "Check Absinthe ticket options"
+        }
+      ],
+      "ka-by-cirque-du-soleil": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/KA-by-Cirque-du-Soleil-at-the-MGM-Grand-Hotel-and-Casino/d684-5156LASKA?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=KAbyCirqueduSoleil",
+          "label": "Check KÀ ticket options"
+        }
+      ],
+      "penn-and-teller": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Penn-and-Teller-at-the-Rio-Suite-Hotel-and-Casino/d684-5084LASPEN?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=PennAndTeller",
+          "label": "Check Penn & Teller ticket options"
+        }
+      ],
+      "carrot-top": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Carrot-Top-at-the-Luxor-Hotel-and-Casino/d684-5156LASCAR?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=CarrotTop",
+          "label": "Check Carrot Top ticket options"
+        }
+      ],
+      "potted-potter": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Potted-Potter-at-Horseshoe-Hotel-and-Casino-in-Las-Vegas/d684-5084P10?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=PottedPotter",
+          "label": "Check Potted Potter ticket options"
+        }
+      ],
+      "menopause-the-musical": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Menopause-the-Musical-at-Harrahs-Hotel-and-Casino/d684-5084LASMEN?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=MenopauseTheMusical",
+          "label": "Check Menopause the Musical ticket options"
+        }
+      ],
+      "the-australian-bee-gees-show": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/The-Australian-Bee-Gees-Show-A-Tribute-to-the-Bee-Gees-at-the-Excalibur-Hotel-and-Casino/d684-5156LASBEE?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=AustralianBeeGees",
+          "label": "Check Australian Bee Gees ticket options"
+        }
+      ],
+      "popovich-comedy-pet-theater": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Popovich-Comedy-Pet-Theater-at-Planet-Hollywood-Resort-and-Casino/d684-3072LASCOM?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=PopovichComedyPetTheater",
+          "label": "Check Popovich Pet Theater ticket options"
+        }
+      ],
+      "wayne-newton": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Wayne-Newton-Up-Close-and-Personal-at-Ballys-Las-Vegas/d684-5084LASWAY?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=WayneNewton",
+          "label": "Check Wayne Newton ticket options"
+        }
+      ],
+      "iluminate": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/iLuminate/d684-9412P13?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=iLuminate",
+          "label": "Check iLuminate ticket options"
+        }
+      ],
+      "banachek-s-mind-games": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/Banacheks-Mind-Games/d684-9412P12?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=BanacheksMindGames",
+          "label": "Check Banachek's Mind Games ticket options"
+        }
+      ],
+      "la-comedy-club": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/LA-Comedy-Club-at-the-Stratosphere-Hotel-and-Casino/d684-9412P2?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=LAComedyClub",
+          "label": "Check L.A. Comedy Club ticket options"
+        }
+      ],
+      "x-country": [
+        {
+          "provider": "viator",
+          "url": "https://www.viator.com/tours/Las-Vegas/X-Country-at-Harrahs-Hotel-and-Casino/d684-5084LASXCOU?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=XCountry",
+          "label": "Check X Country ticket options"
         }
       ]
     },
@@ -918,6 +1121,33 @@
           "label": "View Bliss Chapel wedding options"
         }
       ]
+    }
+  },
+  "orlando": {
+    "fallbacks": {
+      "hotels": {
+        "provider": "expedia",
+        "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FHotel-Search%3Fdestination%3DOrlando%252C%2520Florida",
+        "label": "Check Direct Rates & Availability"
+      }
+    }
+  },
+  "anaheim": {
+    "fallbacks": {
+      "hotels": {
+        "provider": "expedia",
+        "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FHotel-Search%3Fdestination%3DAnaheim%252C%2520California",
+        "label": "Check Direct Rates & Availability"
+      }
+    }
+  },
+  "nashville": {
+    "fallbacks": {
+      "hotels": {
+        "provider": "expedia",
+        "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FHotel-Search%3Fdestination%3DNashville%252C%2520Tennessee",
+        "label": "Check Direct Rates & Availability"
+      }
     }
   }
 }

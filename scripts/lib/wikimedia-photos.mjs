@@ -18,22 +18,56 @@ function scoreCategory(categoryTitle, hotelName) {
   return matched / hotelWords.length;
 }
 
-async function apiGet(params) {
+async function apiGet(params, retries = 4) {
   const url = `${API}?${new URLSearchParams({ ...params, format: 'json', origin: '*' })}`;
-  const res = await fetch(url, { headers: { 'User-Agent': 'CountrymanTravels/1.0 (countrymantravels.com; hotel photo lookup)' } });
-  if (!res.ok) throw new Error(`Wikimedia API ${res.status}`);
-  return res.json();
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const res = await fetch(url, { headers: { 'User-Agent': 'CountrymanTravels/1.0 (countrymantravels.com; hotel photo lookup)' } });
+    if (res.status === 429 && attempt < retries) {
+      const waitMs = 2000 * 2 ** attempt; // 2s, 4s, 8s, 16s
+      await new Promise((r) => setTimeout(r, waitMs));
+      continue;
+    }
+    if (!res.ok) throw new Error(`Wikimedia API ${res.status}`);
+    return res.json();
+  }
+  throw new Error('Wikimedia API 429 after retries');
+}
+
+// Deliberately NOT matching bare "nevada"/"nv" — Nevada has other casino towns
+// (Laughlin, Reno) that would false-positive against a Las Vegas-area hotel.
+const VEGAS_SIGNAL = /\b(las vegas|henderson)\b/;
+// A parenthetical disambiguator that names a different place is a hard reject
+// (e.g. "Category:Green Valley Ranch (Denver)" for a Las Vegas-area hotel of the same name).
+const REJECTING_PAREN = /\(([^)]+)\)\s*$/;
+
+function hasDisqualifyingParen(categoryTitle) {
+  const m = categoryTitle.match(REJECTING_PAREN);
+  if (!m) return false;
+  return !VEGAS_SIGNAL.test(m[1].toLowerCase());
+}
+
+/** Confirm the category actually sits under a Las Vegas/Nevada part of the category tree,
+ *  not just a name that happens to share words (e.g. "New York-New York" matching "New York Giants"). */
+async function verifyVegasContext(categoryTitle) {
+  const data = await apiGet({ action: 'query', prop: 'categories', titles: categoryTitle, cllimit: '50' });
+  const pages = Object.values(data.query?.pages ?? {});
+  const parentCats = pages.flatMap((p) => (p.categories ?? []).map((c) => c.title));
+  return parentCats.some((c) => VEGAS_SIGNAL.test(c.toLowerCase()));
 }
 
 async function findBestCategory(hotelName) {
   const data = await apiGet({ action: 'query', list: 'search', srsearch: hotelName, srnamespace: '14', srlimit: '8' });
   const results = data.query?.search ?? [];
-  let best = null;
-  for (const r of results) {
-    const score = scoreCategory(r.title, hotelName);
-    if (!best || score > best.score) best = { title: r.title, score };
+  const candidates = results
+    .map((r) => ({ title: r.title, score: scoreCategory(r.title, hotelName) }))
+    .filter((c) => c.score >= 0.5 && !hasDisqualifyingParen(c.title))
+    .sort((a, b) => b.score - a.score);
+
+  for (const candidate of candidates.slice(0, 3)) {
+    if (await verifyVegasContext(candidate.title)) return candidate;
+    await new Promise((r) => setTimeout(r, 800));
   }
-  return best && best.score >= 0.5 ? best : null;
+  return null;
 }
 
 async function categoryPhotos(categoryTitle, limit = 3) {

@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:MGM Grand Las Vegas",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/C-Suite_with_Jeffrey_Hayzlett_MGM_Resorts_International.JPG/1280px-C-Suite_with_Jeffrey_Hayzlett_MGM_Resorts_International.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "C-Suite with Jeffrey Hayzlett MGM Resorts International.JPG",
+      "license": "CC BY-SA 3.0",
+      "author": "Jeffrey Hayzlett",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AC-Suite%20with%20Jeffrey%20Hayzlett%20MGM%20Resorts%20International.JPG"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Lego_Las_Vegas_%283168811427%29.jpg/1280px-Lego_Las_Vegas_%283168811427%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Lego Las Vegas (3168811427).jpg",
+      "license": "CC BY 2.0",
+      "author": "karmakazesal",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALego%20Las%20Vegas%20(3168811427).jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Lego_Las_Vegas_%283169637692%29.jpg/1280px-Lego_Las_Vegas_%283169637692%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Lego Las Vegas (3169637692).jpg",
+      "license": "CC BY 2.0",
+      "author": "karmakazesal",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALego%20Las%20Vegas%20(3169637692).jpg"
+    }
+  ]
+}

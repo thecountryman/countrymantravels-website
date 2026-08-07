@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Four Queens",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Las_Vegas_Downtown_1973_-_panoramio.jpg/1280px-Las_Vegas_Downtown_1973_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Las Vegas Downtown 1973 - panoramio.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "sterferg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALas%20Vegas%20Downtown%201973%20-%20panoramio.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Magnolia%27s_prime_rib.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Magnolia's prime rib.jpg",
+      "license": "CC BY 2.0",
+      "author": "Krista",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMagnolia's%20prime%20rib.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Las_Vegas_Strip_from_Four_Queens_by_night.jpg/1280px-Las_Vegas_Strip_from_Four_Queens_by_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Las Vegas Strip from Four Queens by night.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Pierre André Leclercq",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALas%20Vegas%20Strip%20from%20Four%20Queens%20by%20night.jpg"
+    }
+  ]
+}

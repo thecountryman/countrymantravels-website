@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Paris Las Vegas",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Fountains_by_Eiffel_towers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Fountains by Eiffel towers.jpg",
+      "license": "Public domain",
+      "author": "Jon Sullivan",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AFountains%20by%20Eiffel%20towers.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Las_Vegas._Flamingo_Hotel_e_Paris_Hotel_sulla_Las_Vegas_Strip.jpg/1280px-Las_Vegas._Flamingo_Hotel_e_Paris_Hotel_sulla_Las_Vegas_Strip.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Las Vegas. Flamingo Hotel e Paris Hotel sulla Las Vegas Strip.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "André Corboz",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALas%20Vegas.%20Flamingo%20Hotel%20e%20Paris%20Hotel%20sulla%20Las%20Vegas%20Strip.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Las_Vegas._Dettaglio_del_Paris_Las_Vegas_Hotel_e_Casin%C3%B2_%28DOI_13705%29.jpg/1280px-Las_Vegas._Dettaglio_del_Paris_Las_Vegas_Hotel_e_Casin%C3%B2_%28DOI_13705%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Las Vegas. Dettaglio del Paris Las Vegas Hotel e Casinò (DOI 13705).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "André Corboz",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALas%20Vegas.%20Dettaglio%20del%20Paris%20Las%20Vegas%20Hotel%20e%20Casin%C3%B2%20(DOI%2013705).jpg"
+    }
+  ]
+}

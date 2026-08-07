@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Downtown Grand",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Downtown_Grand_Las_Vegas%2C_Las_Vegas%2C_Nevada.jpg/1280px-Downtown_Grand_Las_Vegas%2C_Las_Vegas%2C_Nevada.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Downtown Grand Las Vegas, Las Vegas, Nevada.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Ken Lund",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADowntown%20Grand%20Las%20Vegas%2C%20Las%20Vegas%2C%20Nevada.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Pizza_Rock.jpg/1280px-Pizza_Rock.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Pizza Rock.jpg",
+      "license": "CC BY 2.0",
+      "author": "Paul Sableman",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3APizza%20Rock.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Downtown_Grand_%28Las_Vegas%2C_Nevada%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Downtown Grand (Las Vegas, Nevada).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Raul Jusinto",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADowntown%20Grand%20(Las%20Vegas%2C%20Nevada).jpg"
+    }
+  ]
+}

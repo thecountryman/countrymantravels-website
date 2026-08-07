@@ -1,0 +1,21 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Park MGM",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Eataly_in_Park_MGM_%2853879932653%29.jpg/1280px-Eataly_in_Park_MGM_%2853879932653%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Eataly in Park MGM (53879932653).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Han Zheng",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AEataly%20in%20Park%20MGM%20(53879932653).jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Las_Vegas_2015_%2817950256902%29.jpg/1280px-Las_Vegas_2015_%2817950256902%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Las Vegas 2015 (17950256902).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Anna Irene from Frankfurt, Deutschland",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALas%20Vegas%202015%20(17950256902).jpg"
+    }
+  ]
+}

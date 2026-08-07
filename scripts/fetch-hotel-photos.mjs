@@ -51,8 +51,8 @@ for (const line of files) {
     writeFileSync(join(outDir, `${slug}.json`), JSON.stringify(entry, null, 2));
   }
 
-  // Be polite to the Wikimedia API — small delay between requests.
-  await new Promise((r) => setTimeout(r, 300));
+  // Be polite to the Wikimedia API — each hotel makes several calls (search + context checks + categorymembers).
+  await new Promise((r) => setTimeout(r, 3500));
 }
 
 console.log('\n--- Summary ---');

@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:California Hotel and Casino",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Starr_071224-0634_Washingtonia_sp..jpg/1280px-Starr_071224-0634_Washingtonia_sp..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Starr 071224-0634 Washingtonia sp..jpg",
+      "license": "CC BY 3.0",
+      "author": "Forest &amp; Kim Starr",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AStarr%20071224-0634%20Washingtonia%20sp..jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/The_Cal.jpg/1280px-The_Cal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "The Cal.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Gribiche",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AThe%20Cal.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Las_Vegas%2C_Early_1980%27s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Las Vegas, Early 1980's.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Jason Mitchell",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALas%20Vegas%2C%20Early%201980's.jpg"
+    }
+  ]
+}

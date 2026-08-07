@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:Main Street Station Hotel and Casino and Brewery",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Desert_Wind_in_Las_Vegas.jpg/1280px-Desert_Wind_in_Las_Vegas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Desert Wind in Las Vegas.jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Peter Van den Bossche",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADesert%20Wind%20in%20Las%20Vegas.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Desert_Wind_at_Las_Vegas%2C_October_1992.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Desert Wind at Las Vegas, October 1992.jpg",
+      "license": "Public domain",
+      "author": "Hikki Nagasaki",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADesert%20Wind%20at%20Las%20Vegas%2C%20October%201992.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Desert_Wind_at_Las_Vegas%2C_March_1981.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Desert Wind at Las Vegas, March 1981.jpg",
+      "license": "Public domain",
+      "author": "Hikki Nagasaki",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADesert%20Wind%20at%20Las%20Vegas%2C%20March%201981.jpg"
+    }
+  ]
+}

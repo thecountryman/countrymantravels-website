@@ -1,0 +1,56 @@
+aria|Aria
+bellagio|Bellagio Las Vegas
+caesars-palace|Caesars Palace
+california-hotel-casino|California Hotel Casino
+circa|Circa
+circus-circus|Circus Circus Hotel & Casino
+downtown-grand|Downtown Grand
+durango-casino-resort|Durango Casino Resort
+el-cortez|El Cortez
+ellis-island|Ellis Island
+encore|Encore
+excalibur|Excalibur Hotel & Casino
+flamingo|Flamingo
+fontainebleau-las-vegas|Fontainebleau Las Vegas
+four-queens|Four Queens
+gold-coast|Gold Coast
+golden-nugget|Golden Nugget
+green-valley-ranch|Green Valley Ranch
+harrah-s-las-vegas|Harrah's Las Vegas
+horseshoe-las-vegas|Horseshoe Las Vegas
+luxor|Luxor
+m-resort|M Resort
+main-street-station|Main Street Station
+mandalay-bay|Mandalay Bay
+mgm-grand|Mgm Grand
+new-york-new-york|New York New York
+nobu-hotel-at-caesars-palace|Nobu Hotel At Caesars Palace
+palms-casino-resort|Palms Casino Resort
+paris-las-vegas|Paris Las Vegas
+park-mgm|Park Mgm
+planet-hollywood|Planet Hollywood
+plaza-hotel-casino|Plaza Hotel Casino
+red-rock-casino-resort-spa|Red Rock Casino Resort Spa
+resorts-world|Resorts World Las Vegas
+rio-hotel-casino|Rio Hotel Casino
+sahara-las-vegas|Sahara Las Vegas
+signature-at-mgm-grand|Signature At Mgm Grand
+silverton-casino-lodge|Silverton Casino Lodge
+south-point|South Point
+sunset-station|Sunset Station
+the-cosmopolitan|The Cosmopolitan of Las Vegas
+the-d|The D
+the-linq-hotel-experience|The Linq Hotel Experience
+the-orleans|The Orleans
+the-palazzo|The Palazzo
+the-strat|The Strat
+the-vanderpump-hotel-formerly-the-cromwell|The Vanderpump Hotel Formerly The Cromwell
+the-venetian|The Venetian
+treasure-island|Treasure Island
+tuscany-suites-casino|Tuscany Suites Casino
+vdara|Vdara
+virgin-hotels-las-vegas|Virgin Hotels Las Vegas
+w-las-vegas|W Las Vegas
+waldorf-astoria|Waldorf Astoria
+westgate-las-vegas|Westgate Las Vegas
+wynn-las-vegas|Wynn Las Vegas

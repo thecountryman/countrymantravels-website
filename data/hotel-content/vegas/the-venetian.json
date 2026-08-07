@@ -1,0 +1,28 @@
+{
+  "source": "wikimedia",
+  "category": "Category:The Venetian Macao",
+  "matchConfidence": 1,
+  "photos": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Sands_Cotai_Central_Ad_1400.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "title": "Sands Cotai Central Ad 1400.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Ngchikit",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASands%20Cotai%20Central%20Ad%201400.jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cotai_West_Station_%282015%29.jpg/1280px-Cotai_West_Station_%282015%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "Cotai West Station (2015).jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Doraemon.tvb",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ACotai%20West%20Station%20(2015).jpg"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/The_Venetian_hotel_%288712870401%29.jpg/1280px-The_Venetian_hotel_%288712870401%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "title": "The Venetian hotel (8712870401).jpg",
+      "license": "CC BY-SA 2.0",
+      "author": "Melv_L - MACASR",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AThe%20Venetian%20hotel%20(8712870401).jpg"
+    }
+  ]
+}
