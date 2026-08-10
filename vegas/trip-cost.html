@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4QMCMJCHPN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4QMCMJCHPN');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Las Vegas Trip Cost Calculator — What You Actually Pay | Countryman Travels</title>
+<meta name="description" content="Work out the real cost of a Las Vegas trip. Enter your nights, rooms, and hotel to see the resort fees, tax, and parking added on top of the advertised room rate.">
+<link rel="canonical" href="https://countrymantravels.com/vegas/trip-cost.html">
+<meta property="og:title" content="Las Vegas Trip Cost Calculator — What You Actually Pay">
+<meta property="og:description" content="The advertised rate is not the price. See exactly what resort fees, tax, and parking add to your trip across all 56 Las Vegas hotels.">
+<meta property="og:image" content="https://countrymantravels.com/images/countryman-travels-og.jpg">
+<meta property="og:url" content="https://countrymantravels.com/vegas/trip-cost.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/site-shell.css?v=20260802a">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://countrymantravels.com/"}, {"@type": "ListItem", "position": 2, "name": "Las Vegas", "item": "https://countrymantravels.com/vegas/index.html"}, {"@type": "ListItem", "position": 3, "name": "Trip Cost Calculator"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much do resort fees add to a Las Vegas trip?","acceptedAnswer":{"@type":"Answer","text":"Across the 56 hotels we track, resort fees run from $0 to $55 per night before tax. On a four-night stay the difference between the most and least expensive hotel is over $300 in mandatory add-ons alone, before the room rate."}},{"@type":"Question","name":"Is the resort fee charged per person or per room?","acceptedAnswer":{"@type":"Answer","text":"Per room, per night. Two rooms means two resort fees. It is charged whether or not you use any of the amenities it covers."}},{"@type":"Question","name":"Is tax charged on Las Vegas resort fees?","acceptedAnswer":{"@type":"Answer","text":"Yes. Clark County transient lodging tax of 13.38% applies to the resort fee as well as the room rate, so a $55 fee costs $62.36 per night."}},{"@type":"Question","name":"Is parking included in the resort fee?","acceptedAnswer":{"@type":"Answer","text":"Usually not. Most Strip hotels charge separately for self-parking and valet on top of the resort fee, though many off-Strip and downtown properties still park free."}}]}</script>
+<style>
+  .tc-wrap { width:min(1120px, calc(100% - 2.5rem)); margin:0 auto; padding:2rem 0 4rem; }
+  .tc-lede { max-width:760px; font-size:17px; color:var(--text-dim); line-height:1.65; }
+  .tc-grid { display:grid; grid-template-columns:minmax(0,0.85fr) minmax(320px,1fr); gap:1.75rem; align-items:start; margin-top:2rem; }
+
+  .tc-form { padding:1.5rem; border:1px solid var(--line); border-radius:14px; background:#fff; box-shadow:var(--shadow-sm); }
+  .tc-form h2 { margin:0 0 1.1rem; font-size:1.15rem; color:var(--navy); }
+  .tc-field { margin-bottom:1.1rem; }
+  .tc-field label { display:block; margin-bottom:.35rem; font-size:.83rem; font-weight:700; color:var(--navy); }
+  .tc-field .hint { display:block; margin-top:.3rem; font-size:.76rem; font-weight:400; color:var(--text-muted); line-height:1.45; }
+  .tc-field input, .tc-field select { width:100%; min-height:46px; padding:.6rem .7rem; border:1px solid var(--line-strong); border-radius:9px; background:#fff; color:var(--text); font:inherit; font-size:.95rem; }
+  .tc-field input:focus, .tc-field select:focus { outline:2px solid var(--gold); outline-offset:1px; }
+  .tc-row { display:grid; grid-template-columns:1fr 1fr; gap:.85rem; }
+  .tc-check { display:flex; gap:.6rem; align-items:flex-start; padding:.8rem; border:1px solid var(--line); border-radius:9px; background:#F9FAFB; }
+  .tc-check input { width:18px; min-height:18px; height:18px; margin-top:2px; flex:0 0 18px; }
+  .tc-check label { margin:0; font-size:.87rem; }
+  .tc-prefix { position:relative; }
+  .tc-prefix span { position:absolute; left:.7rem; top:50%; transform:translateY(-50%); color:var(--text-muted); font-size:.95rem; }
+  .tc-prefix input { padding-left:1.6rem; }
+
+  .tc-out { position:sticky; top:1rem; padding:1.6rem; border-radius:14px; background:#0F172A; color:#fff; box-shadow:var(--shadow-lg); }
+  .tc-out h2 { margin:0 0 .3rem; font-size:1.05rem; color:#fff; }
+  .tc-out .for { margin:0 0 1.2rem; color:#94A3B8; font-size:.83rem; line-height:1.45; }
+  .tc-line { display:flex; align-items:baseline; justify-content:space-between; gap:1rem; padding:.62rem 0; border-bottom:1px solid rgba(255,255,255,.1); font-size:.9rem; color:#CBD5E1; }
+  .tc-line b { color:#fff; font-weight:700; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .tc-line small { display:block; color:#7C8DA6; font-size:.75rem; font-weight:400; }
+  .tc-total { display:flex; align-items:baseline; justify-content:space-between; gap:1rem; margin-top:.9rem; padding-top:.95rem; border-top:2px solid rgba(255,255,255,.25); }
+  .tc-total span { color:#fff; font-size:.98rem; font-weight:700; }
+  .tc-total b { color:#FBBF24; font-family:Georgia,serif; font-size:2rem; font-variant-numeric:tabular-nums; }
+  .tc-sub { margin:.5rem 0 0; color:#94A3B8; font-size:.79rem; line-height:1.5; }
+  .tc-callout { margin-top:1.1rem; padding:.9rem 1rem; border-radius:10px; background:rgba(251,191,36,.12); border:1px solid rgba(251,191,36,.35); color:#FDE68A; font-size:.85rem; line-height:1.55; }
+  .tc-callout b { color:#FBBF24; }
+  .tc-actions { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1.2rem; }
+  .tc-btn { display:inline-flex; align-items:center; min-height:44px; padding:.6rem 1rem; border:0; border-radius:8px; background:#fff; color:#0F172A; font:inherit; font-size:.85rem; font-weight:700; text-decoration:none; cursor:pointer; }
+  .tc-btn--ghost { background:transparent; border:1px solid rgba(255,255,255,.4); color:#fff; }
+  .tc-note { margin-top:1rem; color:#7C8DA6; font-size:.75rem; line-height:1.5; }
+  .tc-note a { color:#CBD5E1; }
+
+  .tc-compare { margin-top:2.5rem; }
+  .tc-compare h2 { font-size:1.5rem; color:var(--navy); margin:0 0 .4rem; }
+  .tc-compare > p { max-width:720px; color:var(--text-dim); font-size:.95rem; line-height:1.6; margin:0 0 1.1rem; }
+  .tc-table-scroll { overflow-x:auto; border:1px solid var(--line); border-radius:12px; background:#fff; }
+  .tc-table { width:100%; min-width:560px; border-collapse:collapse; font-size:.9rem; }
+  .tc-table th { padding:.75rem 1rem; background:#0F172A; color:#CBD5E1; font-size:.7rem; font-weight:800; letter-spacing:.07em; text-transform:uppercase; text-align:left; }
+  .tc-table th:not(:first-child), .tc-table td:not(:first-child) { text-align:right; }
+  .tc-table td { padding:.7rem 1rem; border-top:1px solid var(--line); color:var(--text-dim); font-variant-numeric:tabular-nums; }
+  .tc-table td:first-child { color:var(--navy); font-weight:600; }
+  .tc-table tr.is-you td { background:#EFF6F4; color:var(--navy); font-weight:700; }
+  .tc-table .save { color:#047857; font-weight:700; }
+
+  .tc-explain { margin-top:2.5rem; display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
+  .tc-explain div { padding:1.25rem; border:1px solid var(--line); border-radius:12px; background:#fff; }
+  .tc-explain h3 { margin:0 0 .5rem; font-size:1rem; color:var(--navy); }
+  .tc-explain p { margin:0; color:var(--text-dim); font-size:.87rem; line-height:1.6; }
+
+  @media (max-width:900px) {
+    .tc-grid { grid-template-columns:1fr; }
+    .tc-out { position:static; }
+    .tc-explain { grid-template-columns:1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="global-bar"><a href="/index.html" class="g-brand"><span style="color:var(--gold);">✦</span> Countryman Travels</a><div class="g-links"><a href="/index.html">Home</a><a href="/vegas/index.html">Vegas Guide</a><a href="/vegas/shop.html">Shop</a><a href="/about.html">About</a></div></div>
+<nav class="site-nav"><a href="/index.html" class="brand"><span class="dot"></span> Countryman Travels</a><div class="links"><a href="/vegas/index.html" class="nav-link">Vegas Guide</a><a href="/vegas/hotels.html" class="nav-link">Hotels</a><a href="/vegas/shows.html" class="nav-link">Shows</a><a href="/vegas/attractions.html" class="nav-link">Attractions</a><a href="/vegas/shop.html" class="nav-cta">Get the Guidebook &rarr;</a></div></nav>
+
+<main class="tc-wrap">
+  <p style="color:var(--gold-dark);font-weight:800;font-size:12px;letter-spacing:1.4px;text-transform:uppercase;margin:0 0 8px">Trip cost calculator</p>
+  <h1 style="font-size:clamp(2rem,5vw,3.25rem);color:var(--navy);margin:0 0 12px;line-height:1.08">What your Las Vegas trip actually costs</h1>
+  <p class="tc-lede">Hotels advertise a nightly rate. What you pay includes a resort fee, tax on that fee, and usually parking — charged per room, per night, whether you use the amenities or not. Enter your trip below and we will add up the part the search results leave out.</p>
+
+  <div class="tc-grid">
+    <form class="tc-form" id="tcForm" novalidate>
+      <h2>Your trip</h2>
+
+      <div class="tc-row">
+        <div class="tc-field">
+          <label for="nights">Nights</label>
+          <input type="number" id="nights" name="nights" min="1" max="60" step="1" value="3" inputmode="numeric">
+        </div>
+        <div class="tc-field">
+          <label for="rooms">Rooms</label>
+          <input type="number" id="rooms" name="rooms" min="1" max="20" step="1" value="1" inputmode="numeric">
+          <span class="hint">Resort fees are charged per room, not per person.</span>
+        </div>
+      </div>
+
+      <div class="tc-field">
+        <label for="hotel">Hotel</label>
+        <select id="hotel" name="hotel"></select>
+      </div>
+
+      <div class="tc-field">
+        <label for="rate">Nightly room rate you were quoted <span style="font-weight:400;color:var(--text-muted)">(optional)</span></label>
+        <div class="tc-prefix"><span>$</span><input type="number" id="rate" name="rate" min="0" step="0.01" placeholder="0.00" inputmode="decimal"></div>
+        <span class="hint">Room rates change daily, so we do not guess them. Enter the rate you see and we will show the true total.</span>
+      </div>
+
+      <div class="tc-field">
+        <div class="tc-check">
+          <input type="checkbox" id="car" name="car">
+          <label for="car">I will have a car <span style="font-weight:400;color:var(--text-muted)">— adds self-parking per room, per night</span></label>
+        </div>
+      </div>
+    </form>
+
+    <aside class="tc-out" id="tcOut" aria-live="polite">
+      <h2>What gets added</h2>
+      <p class="for" id="tcFor">&nbsp;</p>
+      <div id="tcLines"></div>
+      <div class="tc-total"><span id="tcTotalLabel">Mandatory add-ons</span><b id="tcTotal">$0.00</b></div>
+      <p class="tc-sub" id="tcSub"></p>
+      <div class="tc-callout" id="tcCallout" hidden></div>
+      <div class="tc-actions">
+        <a class="tc-btn" id="tcBook" href="/vegas/hotels.html">See this hotel &rarr;</a>
+        <button type="button" class="tc-btn tc-btn--ghost" id="tcShare">Copy link to this estimate</button>
+      </div>
+      <p class="tc-note">Fees and parking last checked <span id="tcChecked">August 2026</span> and change frequently — confirm at booking. Tax shown is Clark County transient lodging tax of <span id="tcTax">13.38%</span> applied to the resort fee. See our <a href="/about/methodology.html">verification methodology</a>.</p>
+    </aside>
+  </div>
+
+  <section class="tc-compare">
+    <h2>The same trip at other hotels</h2>
+    <p>Identical nights and rooms — only the mandatory add-ons differ. This is the part of the price you can change without changing anything about the trip itself.</p>
+    <div class="tc-table-scroll">
+      <table class="tc-table">
+        <thead><tr><th>Hotel</th><th>Area</th><th>Add-ons for your trip</th><th>vs. your pick</th></tr></thead>
+        <tbody id="tcCompare"></tbody>
+      </table>
+    </div>
+    <p style="margin-top:1rem"><a href="/vegas/resort-fees.html" style="color:var(--gold);font-weight:700">Compare resort fees across all 56 hotels &rarr;</a></p>
+  </section>
+
+  <section class="tc-explain">
+    <div>
+      <h3>Why the fee is not optional</h3>
+      <p>A resort fee is mandatory and charged per room per night, whether or not you use the wi-fi, gym, or pool it nominally covers. It is not a deposit and it is not refundable if unused.</p>
+    </div>
+    <div>
+      <h3>Why tax makes it worse</h3>
+      <p>Clark County lodging tax applies to the resort fee as well as the room. A $55 fee is $62.36 once taxed — an extra $7.36 a night that never appears in a search result.</p>
+    </div>
+    <div>
+      <h3>Where the savings actually are</h3>
+      <p>Downtown and off-Strip properties often charge far lower fees and still park free. Moving your base can save more per night than hunting a cheaper rate at the same resort.</p>
+    </div>
+  </section>
+
+  <p style="margin-top:2rem"><a href="/vegas/index.html">&larr; Return to the Las Vegas guide</a></p>
+</main>
+
+<footer class="site-footer"><div class="footer-bottom"><span>© 2026 Countryman Travels. Independent travel publishing.</span><span><a href="/affiliate-disclosure.html">Affiliate disclosure</a> · <a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></span></div></footer>
+
+<!-- AUTO:hotel-data -->
+<script>window.CT_HOTELS={"taxRate":0.1338,"lastVerified":"August 2026","hotels":[{"slug":"aria","name":"ARIA Resort & Casino","area":"Center Strip","fee":55,"park":20},{"slug":"bellagio","name":"Bellagio Las Vegas","area":"Center Strip","fee":55,"park":20},{"slug":"caesars-palace","name":"Caesars Palace","area":"Center Strip","fee":55,"park":20},{"slug":"california-hotel-casino","name":"California Hotel & Casino","area":"Downtown","fee":32.99,"park":0},{"slug":"circa","name":"Circa Resort & Casino","area":"Downtown","fee":50,"park":25},{"slug":"circus-circus","name":"Circus Circus","area":"North Strip","fee":45,"park":0},{"slug":"downtown-grand","name":"Downtown Grand","area":"Downtown","fee":39,"park":10},{"slug":"durango-casino-resort","name":"Durango Casino & Resort","area":"Southwest (off-Strip)","fee":45,"park":0},{"slug":"el-cortez","name":"El Cortez","area":"Downtown","fee":30,"park":5},{"slug":"ellis-island","name":"Ellis Island Hotel & Casino","area":"East of Strip","fee":34.99,"park":0},{"slug":"encore","name":"Encore at Wynn","area":"North Strip","fee":55,"park":0},{"slug":"excalibur","name":"Excalibur","area":"South Strip","fee":45,"park":20},{"slug":"flamingo","name":"Flamingo Las Vegas","area":"Center Strip","fee":50,"park":20},{"slug":"fontainebleau-las-vegas","name":"Fontainebleau Las Vegas","area":"North Strip","fee":55,"park":0},{"slug":"four-queens","name":"Four Queens","area":"Downtown","fee":0,"park":5},{"slug":"gold-coast","name":"Gold Coast Hotel & Casino","area":"West of Strip","fee":39.99,"park":0},{"slug":"golden-nugget","name":"Golden Nugget","area":"Downtown","fee":46,"park":25},{"slug":"green-valley-ranch","name":"Green Valley Ranch","area":"Henderson","fee":45,"park":0},{"slug":"harrah-s-las-vegas","name":"Harrah's Las Vegas","area":"Center Strip","fee":50,"park":20},{"slug":"horseshoe-las-vegas","name":"Horseshoe Las Vegas","area":"Center Strip","fee":50,"park":20},{"slug":"luxor","name":"Luxor","area":"South Strip","fee":45,"park":20},{"slug":"m-resort","name":"M Resort Spa Casino","area":"Henderson","fee":39.99,"park":0},{"slug":"main-street-station","name":"Main Street Station","area":"Downtown","fee":32.99,"park":0},{"slug":"mandalay-bay","name":"Mandalay Bay","area":"South Strip","fee":50,"park":20},{"slug":"mgm-grand","name":"MGM Grand","area":"South Strip","fee":50,"park":20},{"slug":"new-york-new-york","name":"New York-New York","area":"South Strip","fee":45,"park":20},{"slug":"nobu-hotel-at-caesars-palace","name":"Nobu Hotel at Caesars Palace","area":"Center Strip","fee":55,"park":20},{"slug":"palms-casino-resort","name":"Palms Casino Resort","area":"West of Strip","fee":43.99,"park":0},{"slug":"paris-las-vegas","name":"Paris Las Vegas","area":"Center Strip","fee":55,"park":20},{"slug":"park-mgm","name":"Park MGM","area":"Center Strip","fee":50,"park":20},{"slug":"planet-hollywood","name":"Planet Hollywood","area":"Center Strip","fee":55,"park":20},{"slug":"plaza-hotel-casino","name":"Plaza Hotel & Casino","area":"Downtown","fee":39.55,"park":0},{"slug":"red-rock-casino-resort-spa","name":"Red Rock Casino Resort & Spa","area":"Summerlin","fee":45,"park":0},{"slug":"resorts-world","name":"Resorts World Las Vegas","area":"North Strip","fee":55,"park":21},{"slug":"rio-hotel-casino","name":"Rio Hotel & Casino","area":"West of Strip","fee":50,"park":0},{"slug":"sahara-las-vegas","name":"SAHARA Las Vegas","area":"North Strip","fee":54.95,"park":0},{"slug":"signature-at-mgm-grand","name":"The Signature at MGM Grand","area":"South Strip","fee":50,"park":20},{"slug":"silverton-casino-lodge","name":"Silverton Casino Lodge","area":"South (off-Strip)","fee":35.99,"park":0},{"slug":"south-point","name":"South Point Hotel Casino & Spa","area":"South (off-Strip)","fee":33,"park":0},{"slug":"sunset-station","name":"Sunset Station","area":"Henderson","fee":39.99,"park":0},{"slug":"the-cosmopolitan","name":"The Cosmopolitan of Las Vegas","area":"Center Strip","fee":55,"park":20},{"slug":"the-d","name":"The D Las Vegas","area":"Downtown","fee":39.95,"park":0},{"slug":"the-linq-hotel-experience","name":"The LINQ Hotel + Experience","area":"Center Strip","fee":50,"park":20},{"slug":"the-orleans","name":"The Orleans Hotel & Casino","area":"West of Strip","fee":40.99,"park":0},{"slug":"the-palazzo","name":"The Palazzo","area":"Center Strip","fee":55,"park":20},{"slug":"the-strat","name":"The STRAT Hotel, Casino & Tower","area":"North Strip","fee":49.95,"park":22},{"slug":"the-vanderpump-hotel-formerly-the-cromwell","name":"The Vanderpump Hotel (formerly The Cromwell)","area":"Center Strip","fee":55,"park":20},{"slug":"the-venetian","name":"The Venetian Resort","area":"Center Strip","fee":55,"park":20},{"slug":"treasure-island","name":"Treasure Island","area":"Center Strip","fee":49.95,"park":0},{"slug":"tuscany-suites-casino","name":"Tuscany Suites & Casino","area":"East of Strip","fee":42,"park":0},{"slug":"vdara","name":"Vdara Hotel & Spa","area":"Center Strip","fee":55,"park":20},{"slug":"virgin-hotels-las-vegas","name":"Virgin Hotels Las Vegas","area":"East of Strip","fee":50,"park":null},{"slug":"w-las-vegas","name":"W Las Vegas","area":"South Strip","fee":50,"park":20},{"slug":"waldorf-astoria","name":"Waldorf Astoria Las Vegas","area":"Center Strip","fee":55,"park":null},{"slug":"westgate-las-vegas","name":"Westgate Las Vegas Resort & Casino","area":"East of Strip","fee":49.99,"park":null},{"slug":"wynn-las-vegas","name":"Wynn Las Vegas","area":"North Strip","fee":55,"park":0}]};</script>
+<!-- /AUTO:hotel-data -->
+<script src="/js/trip-cost.js?v=20260809a" defer></script>
+<script src="/js/site-shell.js?v=20260802a" defer></script>
+</body>
+</html>

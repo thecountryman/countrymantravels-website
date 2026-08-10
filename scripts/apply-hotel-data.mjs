@@ -126,6 +126,18 @@ for (const [slug, h] of Object.entries(hotels)) {
     `${h.area.toUpperCase()} · HOTEL FIELD GUIDE`
   );
 
+  // Deep-link into the calculator with this hotel preselected. Idempotent:
+  // the anchor is rebuilt from the marker on every run.
+  const calcLink = `<a href="/vegas/trip-cost.html?hotel=${slug}&amp;nights=3" style="color:var(--gold-dark); font-weight:700;" data-calc-link>Work out what a 3-night stay here really costs &rarr;</a>`;
+  if (html.includes('data-calc-link')) {
+    html = html.replace(/<a href="\/vegas\/trip-cost\.html[^>]*data-calc-link>[^<]*<\/a>/, () => calcLink);
+  } else {
+    html = html.replace(
+      /(<a href="\/vegas\/resort-fees\.html"[^>]*>Compare this resort fee against all 56 Vegas hotels &rarr;<\/a>)/,
+      (_m, a) => `${a}<br>${calcLink}`
+    );
+  }
+
   // Hotel JSON-LD must agree with the visible tiles — search engines and
   // assistants read this, so a stale figure here is a wrong price in results.
   html = html.replace(
@@ -236,6 +248,36 @@ console.log(`detail pages rewritten: ${touched}`);
   console.log(`resort-fees.html: ${Object.keys(hotels).length} rows, avg $${stats.avg.toFixed(2)}, range $${stats.lo}–$${stats.hi}`);
 }
 
+/* --------------------------------------------------------- vegas/trip-cost.html */
+{
+  const file = join(root, 'vegas/trip-cost.html');
+  let html = readFileSync(file, 'utf8');
+
+  const payload = {
+    taxRate: roomTaxRate,
+    lastVerified: new Date(lastVerified + 'T00:00:00Z').toLocaleDateString('en-US', {
+      month: 'long', year: 'numeric', timeZone: 'UTC',
+    }),
+    hotels: Object.entries(hotels).map(([slug, h]) => ({
+      slug,
+      name: h.name,
+      area: h.area,
+      fee: h.resortFee,
+      // null = unverified; the calculator must not treat it as free.
+      park: selfParkingLow(h),
+    })),
+  };
+
+  const re = /(<!-- AUTO:hotel-data -->)[\s\S]*?(<!-- \/AUTO:hotel-data -->)/;
+  if (!re.test(html)) throw new Error('hotel-data marker missing in trip-cost.html');
+  html = html.replace(re, (_m, open, close) =>
+    `${open}\n<script>window.CT_HOTELS=${JSON.stringify(payload)};</script>\n${close}`);
+
+  writeFileSync(file, html);
+  const unverified = payload.hotels.filter((h) => h.park === null).length;
+  console.log(`trip-cost.html: ${payload.hotels.length} hotels injected (${unverified} without verified parking)`);
+}
+
 /* ------------------------------------------------------------------- index.html */
 {
   const file = join(root, 'index.html');
@@ -298,7 +340,7 @@ ${bottom.map(row).join('\n')}
         </div>
         <div class="cost-proof__foot">
           <p>Estimated figures, last checked ${new Date(lastVerified + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' })} — fees change often; confirm at booking.</p>
-          <a href="/vegas/resort-fees.html">Compare all 56 Vegas hotels →</a>
+          <a href="/vegas/trip-cost.html">Work out the cost of your own trip →</a>
         </div>`);
 
   writeFileSync(file, html);
