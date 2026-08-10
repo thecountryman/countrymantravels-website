@@ -248,11 +248,8 @@ console.log(`detail pages rewritten: ${touched}`);
   console.log(`resort-fees.html: ${Object.keys(hotels).length} rows, avg $${stats.avg.toFixed(2)}, range $${stats.lo}–$${stats.hi}`);
 }
 
-/* --------------------------------------------------------- vegas/trip-cost.html */
+/* ------------------------------- pages that embed the dataset for client JS */
 {
-  const file = join(root, 'vegas/trip-cost.html');
-  let html = readFileSync(file, 'utf8');
-
   const payload = {
     taxRate: roomTaxRate,
     lastVerified: new Date(lastVerified + 'T00:00:00Z').toLocaleDateString('en-US', {
@@ -269,13 +266,19 @@ console.log(`detail pages rewritten: ${touched}`);
   };
 
   const re = /(<!-- AUTO:hotel-data -->)[\s\S]*?(<!-- \/AUTO:hotel-data -->)/;
-  if (!re.test(html)) throw new Error('hotel-data marker missing in trip-cost.html');
-  html = html.replace(re, (_m, open, close) =>
-    `${open}\n<script>window.CT_HOTELS=${JSON.stringify(payload)};</script>\n${close}`);
+  const targets = ['vegas/trip-cost.html', 'vegas/workbook.html'];
 
-  writeFileSync(file, html);
+  for (const rel of targets) {
+    const file = join(root, rel);
+    let html = readFileSync(file, 'utf8');
+    if (!re.test(html)) throw new Error(`hotel-data marker missing in ${rel}`);
+    html = html.replace(re, (_m, open, close) =>
+      `${open}\n<script>window.CT_HOTELS=${JSON.stringify(payload)};</script>\n${close}`);
+    writeFileSync(file, html);
+  }
+
   const unverified = payload.hotels.filter((h) => h.park === null).length;
-  console.log(`trip-cost.html: ${payload.hotels.length} hotels injected (${unverified} without verified parking)`);
+  console.log(`dataset embedded in ${targets.length} pages: ${payload.hotels.length} hotels (${unverified} without verified parking)`);
 }
 
 /* ------------------------------------------------------------------- index.html */

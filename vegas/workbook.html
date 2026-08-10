@@ -13,15 +13,39 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trip-Planning Workbook — Countryman Travels</title>
-<meta name="description" content="Blank hotel comparison, reservation record, and per-person budget worksheets.">
+<title>Fillable Vegas Trip-Planning Workbook — Countryman Travels</title>
+<meta name="description" content="Fill in your hotel comparison, reservation record, and per-person budget worksheets on your phone. Resort fees and parking fill in automatically for all 56 Las Vegas hotels. Saves on your device; print or export any time.">
 <link rel="canonical" href="https://countrymantravels.com/vegas/workbook.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
 <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/site-shell.css?v=20260802a">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://countrymantravels.com/"}, {"@type": "ListItem", "position": 2, "name": "Las Vegas", "item": "https://countrymantravels.com/vegas/index.html"}, {"@type": "ListItem", "position": 3, "name": "Trip-Planning Workbook"}]}</script>
+<style>
+  .wb-bar { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem; margin:0 0 1.75rem; padding:1rem 1.15rem; border:1px solid #CDE3DE; border-radius:12px; background:#EFF6F4; }
+  .wb-bar__status { font-size:.88rem; color:var(--text-dim); line-height:1.5; }
+  .wb-bar__status strong { color:var(--navy); }
+  .wb-bar__actions { display:flex; flex-wrap:wrap; gap:.5rem; }
+  .wb-btn { min-height:40px; padding:.5rem .85rem; border:0; border-radius:8px; background:var(--gold); color:#fff; font:inherit; font-size:.82rem; font-weight:700; cursor:pointer; }
+  .wb-btn--ghost { background:#fff; border:1px solid var(--line-strong); color:var(--navy); }
+  .wb-btn:focus-visible { outline:2px solid var(--navy); outline-offset:2px; }
+  .wb-hint { margin:.35rem 0 1rem; color:var(--text-muted); font-size:.87rem; line-height:1.55; }
+  .wb-nights { display:flex; align-items:center; gap:.6rem; margin:0 0 1rem; }
+  .wb-nights label { font-size:.83rem; font-weight:700; color:var(--navy); }
+  .wb-nights input { width:88px; min-height:40px; padding:.4rem .6rem; border:1px solid var(--line-strong); border-radius:8px; font:inherit; }
+  .wb-table input, .wb-table select { width:100%; min-height:40px; padding:.42rem .55rem; border:1px solid var(--line); border-radius:7px; background:#fff; color:var(--text); font:inherit; font-size:.88rem; }
+  .wb-table input:focus, .wb-table select:focus { outline:2px solid var(--gold); outline-offset:1px; border-color:var(--gold); }
+  .wb-table td { vertical-align:top; }
+  .wb-auto { display:block; margin-top:.3rem; color:var(--text-muted); font-size:.73rem; line-height:1.35; }
+  .wb-computed td { background:#F6FAF9; font-variant-numeric:tabular-nums; }
+  .wb-computed td[data-wb-total], .wb-computed td[data-wb-total-sum] { color:var(--navy); font-weight:800; }
+  @media print {
+    .wb-bar, .site-nav, .global-bar, .site-footer, .wb-hint, .chapter-hero .dek { display:none !important; }
+    .wb-table input, .wb-table select { border:0; padding:0; min-height:0; font-size:.85rem; -webkit-appearance:none; appearance:none; }
+    .data-table-wrap { overflow:visible !important; }
+    a[href]:after { content:""; }
+  }
+</style>
 </head>
 <body>
 <div class="global-bar">
@@ -58,56 +82,87 @@
   <p class="dek">Reusable worksheets for comparing true costs, building days, and recording volatile details.</p>
 </div>
 <div class="content-wrap" style="max-width:900px;">
+  <div class="wb-bar" id="wbBar">
+    <div class="wb-bar__status"><strong>This is the fillable version.</strong> <span id="wbStatus">Type in any cell — your entries save on this device automatically.</span></div>
+    <div class="wb-bar__actions">
+      <button type="button" class="wb-btn" id="wbPrint">Print / save as PDF</button>
+      <button type="button" class="wb-btn wb-btn--ghost" id="wbCopy">Copy as text</button>
+      <button type="button" class="wb-btn wb-btn--ghost" id="wbClear">Clear all</button>
+    </div>
+  </div>
+
   <h2>Hotel comparison worksheet</h2>
+  <p class="wb-hint">Pick a hotel and we fill in its resort fee and parking from the 56 we track. Set your nights to see what each option adds over the whole stay.</p>
+  <div class="wb-nights">
+    <label for="wbNights">Nights</label>
+    <input type="number" id="wbNights" min="1" max="60" step="1" value="3" inputmode="numeric" data-wb="nights">
+  </div>
   <div class="data-table-wrap">
-    <table class="data-table">
+    <table class="data-table wb-table">
       <thead><tr><th>Field</th><th>Option A</th><th>Option B</th><th>Option C</th></tr></thead>
       <tbody>
-        <tr><td>Hotel/Casino</td><td></td><td></td><td></td></tr>
-        <tr><td>Room price after taxes and fees</td><td></td><td></td><td></td></tr>
-        <tr><td>Parking / airport transfer</td><td></td><td></td><td></td></tr>
-        <tr><td>Breakfast / included credit</td><td></td><td></td><td></td></tr>
-        <tr><td>Cancellation deadline</td><td></td><td></td><td></td></tr>
+        <tr><td>Hotel/Casino</td>
+          <td><select data-wb="hotelA" data-wb-hotel="A" class="wb-select"></select></td>
+          <td><select data-wb="hotelB" data-wb-hotel="B" class="wb-select"></select></td>
+          <td><select data-wb="hotelC" data-wb-hotel="C" class="wb-select"></select></td></tr>
+        <tr><td>Room price after taxes and fees</td>
+          <td><input data-wb="priceA" placeholder="your quoted rate"><small class="wb-auto" data-wb-fee="A"></small></td>
+          <td><input data-wb="priceB" placeholder="your quoted rate"><small class="wb-auto" data-wb-fee="B"></small></td>
+          <td><input data-wb="priceC" placeholder="your quoted rate"><small class="wb-auto" data-wb-fee="C"></small></td></tr>
+        <tr><td>Parking / airport transfer</td>
+          <td><input data-wb="parkA"></td>
+          <td><input data-wb="parkB"></td>
+          <td><input data-wb="parkC"></td></tr>
+        <tr><td>Breakfast / included credit</td>
+          <td><input data-wb="brkA"></td>
+          <td><input data-wb="brkB"></td>
+          <td><input data-wb="brkC"></td></tr>
+        <tr><td>Cancellation deadline</td>
+          <td><input data-wb="cxlA"></td>
+          <td><input data-wb="cxlB"></td>
+          <td><input data-wb="cxlC"></td></tr>
+        <tr class="wb-computed"><td><strong>Fees + parking for the stay</strong></td>
+          <td data-wb-total="A">—</td>
+          <td data-wb-total="B">—</td>
+          <td data-wb-total="C">—</td></tr>
       </tbody>
     </table>
   </div>
 
   <h2>Reservation record</h2>
   <div class="data-table-wrap">
-    <table class="data-table">
+    <table class="data-table wb-table">
       <thead><tr><th>Item</th><th>Detail</th></tr></thead>
       <tbody>
-        <tr><td>Hotel/Casino</td><td></td></tr>
-        <tr><td>Date / arrival / start</td><td></td></tr>
-        <tr><td>Confirmation</td><td></td></tr>
-        <tr><td>Final all-in price</td><td></td></tr>
-        <tr><td>Cancellation deadline</td><td></td></tr>
+        <tr><td>Hotel/Casino</td><td><input data-wb="resHotel"></td></tr>
+        <tr><td>Date / arrival / start</td><td><input data-wb="resDate"></td></tr>
+        <tr><td>Confirmation</td><td><input data-wb="resConf"></td></tr>
+        <tr><td>Final all-in price</td><td><input data-wb="resPrice"></td></tr>
+        <tr><td>Cancellation deadline</td><td><input data-wb="resCxl"></td></tr>
       </tbody>
     </table>
   </div>
 
   <h2>Per-person budget worksheet</h2>
   <div class="data-table-wrap">
-    <table class="data-table">
+    <table class="data-table wb-table">
       <thead><tr><th>Category</th><th>Planned</th><th>Actual</th><th>Notes</th></tr></thead>
       <tbody>
-        <tr><td>Airfare / baggage</td><td></td><td></td><td></td></tr>
-        <tr><td>Lodging share</td><td></td><td></td><td></td></tr>
-        <tr><td>Airport + local transport</td><td></td><td></td><td></td></tr>
-        <tr><td>Meals + drinks</td><td></td><td></td><td></td></tr>
-        <tr><td>Shows + attractions</td><td></td><td></td><td></td></tr>
-        <tr><td>Tips + fees</td><td></td><td></td><td></td></tr>
-        <tr><td>Shopping</td><td></td><td></td><td></td></tr>
-        <tr><td>Gaming entertainment limit</td><td></td><td></td><td></td></tr>
-        <tr><td>Emergency buffer</td><td></td><td></td><td></td></tr>
-        <tr><td><strong>Total</strong></td><td></td><td></td><td></td></tr>
+        <tr><td>Airfare / baggage</td><td><input data-wb="bp1" data-wb-sum="planned" inputmode="decimal"></td><td><input data-wb="ba1" data-wb-sum="actual" inputmode="decimal"></td><td><input data-wb="bn1"></td></tr>
+        <tr><td>Lodging share</td><td><input data-wb="bp2" data-wb-sum="planned" inputmode="decimal"></td><td><input data-wb="ba2" data-wb-sum="actual" inputmode="decimal"></td><td><input data-wb="bn2"></td></tr>
+        <tr><td>Airport + local transport</td><td><input data-wb="bp3" data-wb-sum="planned" inputmode="decimal"></td><td><input data-wb="ba3" data-wb-sum="actual" inputmode="decimal"></td><td><input data-wb="bn3"></td></tr>
+        <tr><td>Meals + drinks</td><td><input data-wb="bp4" data-wb-sum="planned" inputmode="decimal"></td><td><input data-wb="ba4" data-wb-sum="actual" inputmode="decimal"></td><td><input data-wb="bn4"></td></tr>
+        <tr><td>Shows + attractions</td><td><input data-wb="bp5" data-wb-sum="planned" inputmode="decimal"></td><td><input data-wb="ba5" data-wb-sum="actual" inputmode="decimal"></td><td><input data-wb="bn5"></td></tr>
+        <tr><td>Tips + fees</td><td><input data-wb="bp6" data-wb-sum="planned" inputmode="decimal"></td><td><input data-wb="ba6" data-wb-sum="actual" inputmode="decimal"></td><td><input data-wb="bn6"></td></tr>
+        <tr><td>Shopping</td><td><input data-wb="bp7" data-wb-sum="planned" inputmode="decimal"></td><td><input data-wb="ba7" data-wb-sum="actual" inputmode="decimal"></td><td><input data-wb="bn7"></td></tr>
+        <tr><td>Gaming entertainment limit</td><td><input data-wb="bp8" data-wb-sum="planned" inputmode="decimal"></td><td><input data-wb="ba8" data-wb-sum="actual" inputmode="decimal"></td><td><input data-wb="bn8"></td></tr>
+        <tr><td>Emergency buffer</td><td><input data-wb="bp9" data-wb-sum="planned" inputmode="decimal"></td><td><input data-wb="ba9" data-wb-sum="actual" inputmode="decimal"></td><td><input data-wb="bn9"></td></tr>
+        <tr class="wb-computed"><td><strong>Total</strong></td><td data-wb-total-sum="planned">—</td><td data-wb-total-sum="actual">—</td><td></td></tr>
       </tbody>
     </table>
   </div>
-  <p class="info-note">These worksheets are blank by design — print, screenshot, or copy them into your own notes app before the trip.</p>
 
-  
-  <div><strong>QR code slot</strong>Scan to open a fillable version of these worksheets on your phone.</div>
+  <p class="info-note">Everything you type stays in this browser on this device. Nothing is uploaded and we cannot see it — so use <strong>Print / save as PDF</strong> or <strong>Copy as text</strong> if you need it somewhere else, and note that clearing your browser data will erase it.</p>
 </div>
   <p style="margin-top:2rem;"><a href="/vegas/quick-answers.html" style="color:var(--cyan); font-weight:600; text-decoration:none; font-size:13.5px;">Next: Quick answers &rarr;</a></p>
 </div>
@@ -143,6 +198,10 @@
     <span>Estimated data — last checked August 2026. See our <a href="/about/methodology.html" style="color:inherit;text-decoration:underline;">verification methodology</a>. Some links support independent publication via affiliate commissions.</span>
   </div>
 </footer>
+<!-- AUTO:hotel-data -->
+<script>window.CT_HOTELS={"taxRate":0.1338,"lastVerified":"August 2026","hotels":[{"slug":"aria","name":"ARIA Resort & Casino","area":"Center Strip","fee":55,"park":20},{"slug":"bellagio","name":"Bellagio Las Vegas","area":"Center Strip","fee":55,"park":20},{"slug":"caesars-palace","name":"Caesars Palace","area":"Center Strip","fee":55,"park":20},{"slug":"california-hotel-casino","name":"California Hotel & Casino","area":"Downtown","fee":32.99,"park":0},{"slug":"circa","name":"Circa Resort & Casino","area":"Downtown","fee":50,"park":25},{"slug":"circus-circus","name":"Circus Circus","area":"North Strip","fee":45,"park":0},{"slug":"downtown-grand","name":"Downtown Grand","area":"Downtown","fee":39,"park":10},{"slug":"durango-casino-resort","name":"Durango Casino & Resort","area":"Southwest (off-Strip)","fee":45,"park":0},{"slug":"el-cortez","name":"El Cortez","area":"Downtown","fee":30,"park":5},{"slug":"ellis-island","name":"Ellis Island Hotel & Casino","area":"East of Strip","fee":34.99,"park":0},{"slug":"encore","name":"Encore at Wynn","area":"North Strip","fee":55,"park":0},{"slug":"excalibur","name":"Excalibur","area":"South Strip","fee":45,"park":20},{"slug":"flamingo","name":"Flamingo Las Vegas","area":"Center Strip","fee":50,"park":20},{"slug":"fontainebleau-las-vegas","name":"Fontainebleau Las Vegas","area":"North Strip","fee":55,"park":0},{"slug":"four-queens","name":"Four Queens","area":"Downtown","fee":0,"park":5},{"slug":"gold-coast","name":"Gold Coast Hotel & Casino","area":"West of Strip","fee":39.99,"park":0},{"slug":"golden-nugget","name":"Golden Nugget","area":"Downtown","fee":46,"park":25},{"slug":"green-valley-ranch","name":"Green Valley Ranch","area":"Henderson","fee":45,"park":0},{"slug":"harrah-s-las-vegas","name":"Harrah's Las Vegas","area":"Center Strip","fee":50,"park":20},{"slug":"horseshoe-las-vegas","name":"Horseshoe Las Vegas","area":"Center Strip","fee":50,"park":20},{"slug":"luxor","name":"Luxor","area":"South Strip","fee":45,"park":20},{"slug":"m-resort","name":"M Resort Spa Casino","area":"Henderson","fee":39.99,"park":0},{"slug":"main-street-station","name":"Main Street Station","area":"Downtown","fee":32.99,"park":0},{"slug":"mandalay-bay","name":"Mandalay Bay","area":"South Strip","fee":50,"park":20},{"slug":"mgm-grand","name":"MGM Grand","area":"South Strip","fee":50,"park":20},{"slug":"new-york-new-york","name":"New York-New York","area":"South Strip","fee":45,"park":20},{"slug":"nobu-hotel-at-caesars-palace","name":"Nobu Hotel at Caesars Palace","area":"Center Strip","fee":55,"park":20},{"slug":"palms-casino-resort","name":"Palms Casino Resort","area":"West of Strip","fee":43.99,"park":0},{"slug":"paris-las-vegas","name":"Paris Las Vegas","area":"Center Strip","fee":55,"park":20},{"slug":"park-mgm","name":"Park MGM","area":"Center Strip","fee":50,"park":20},{"slug":"planet-hollywood","name":"Planet Hollywood","area":"Center Strip","fee":55,"park":20},{"slug":"plaza-hotel-casino","name":"Plaza Hotel & Casino","area":"Downtown","fee":39.55,"park":0},{"slug":"red-rock-casino-resort-spa","name":"Red Rock Casino Resort & Spa","area":"Summerlin","fee":45,"park":0},{"slug":"resorts-world","name":"Resorts World Las Vegas","area":"North Strip","fee":55,"park":21},{"slug":"rio-hotel-casino","name":"Rio Hotel & Casino","area":"West of Strip","fee":50,"park":0},{"slug":"sahara-las-vegas","name":"SAHARA Las Vegas","area":"North Strip","fee":54.95,"park":0},{"slug":"signature-at-mgm-grand","name":"The Signature at MGM Grand","area":"South Strip","fee":50,"park":20},{"slug":"silverton-casino-lodge","name":"Silverton Casino Lodge","area":"South (off-Strip)","fee":35.99,"park":0},{"slug":"south-point","name":"South Point Hotel Casino & Spa","area":"South (off-Strip)","fee":33,"park":0},{"slug":"sunset-station","name":"Sunset Station","area":"Henderson","fee":39.99,"park":0},{"slug":"the-cosmopolitan","name":"The Cosmopolitan of Las Vegas","area":"Center Strip","fee":55,"park":20},{"slug":"the-d","name":"The D Las Vegas","area":"Downtown","fee":39.95,"park":0},{"slug":"the-linq-hotel-experience","name":"The LINQ Hotel + Experience","area":"Center Strip","fee":50,"park":20},{"slug":"the-orleans","name":"The Orleans Hotel & Casino","area":"West of Strip","fee":40.99,"park":0},{"slug":"the-palazzo","name":"The Palazzo","area":"Center Strip","fee":55,"park":20},{"slug":"the-strat","name":"The STRAT Hotel, Casino & Tower","area":"North Strip","fee":49.95,"park":22},{"slug":"the-vanderpump-hotel-formerly-the-cromwell","name":"The Vanderpump Hotel (formerly The Cromwell)","area":"Center Strip","fee":55,"park":20},{"slug":"the-venetian","name":"The Venetian Resort","area":"Center Strip","fee":55,"park":20},{"slug":"treasure-island","name":"Treasure Island","area":"Center Strip","fee":49.95,"park":0},{"slug":"tuscany-suites-casino","name":"Tuscany Suites & Casino","area":"East of Strip","fee":42,"park":0},{"slug":"vdara","name":"Vdara Hotel & Spa","area":"Center Strip","fee":55,"park":20},{"slug":"virgin-hotels-las-vegas","name":"Virgin Hotels Las Vegas","area":"East of Strip","fee":50,"park":null},{"slug":"w-las-vegas","name":"W Las Vegas","area":"South Strip","fee":50,"park":20},{"slug":"waldorf-astoria","name":"Waldorf Astoria Las Vegas","area":"Center Strip","fee":55,"park":null},{"slug":"westgate-las-vegas","name":"Westgate Las Vegas Resort & Casino","area":"East of Strip","fee":49.99,"park":null},{"slug":"wynn-las-vegas","name":"Wynn Las Vegas","area":"North Strip","fee":55,"park":0}]};</script>
+<!-- /AUTO:hotel-data -->
+  <script src="/js/workbook.js?v=20260809a" defer></script>
   <script src="/js/site-shell.js?v=20260802a" defer></script>
 </body>
 </html>
