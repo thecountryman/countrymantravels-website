@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "why": "Every third-party image on the site must have its licence recorded HERE at the moment it is added. images/*.jpg from the initial commit have no recorded provenance and are therefore NOT used anywhere — do not wire them into a page until their licence is established.",
+    "requirement": "CC BY / CC BY-SA images must display author + licence + link to the source page wherever they appear."
+  },
+  "images": {
+    "images/home/strip-night-hero.jpg": {
+      "alsoApplies": ["images/home/strip-night-hero-sm.jpg"],
+      "title": "Las Vegas (Nevada, USA), The Venetian -- 2012 -- 6339.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Las_Vegas_(Nevada,_USA),_The_Strip_--_2012_--_6339.jpg",
+      "modifications": "Resized and recompressed for web delivery.",
+      "addedOn": "2026-08-09"
+    },
+    "images/home/strip-panorama.jpg": {
+      "title": "Las Vegas Panorama Bellagio to Paris 2014.jpg",
+      "author": "Paul Harrison",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Las_Vegas_Panorama_Bellagio_to_Paris_2014.jpg",
+      "modifications": "Resized and recompressed for web delivery.",
+      "addedOn": "2026-08-09"
+    }
+  },
+  "unverified": {
+    "note": "Provenance unknown — present in the initial commit with no licence record. NOT safe to publish until traced.",
+    "files": [
+      "images/strip-aerial.jpg",
+      "images/caesars-palace.jpg",
+      "images/venetian.jpg",
+      "images/excalibur.jpg",
+      "images/linq-promenade.jpg",
+      "images/home/vegas-strip.jpg",
+      "images/home/disney-world.jpg"
+    ]
+  }
+}

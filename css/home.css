@@ -94,6 +94,59 @@ body.vegas-hub { background:#fff; overflow-x:hidden; }
 .vegas-hero { width:100%; max-width:none; padding-left:max(1.5rem,calc((100% - 1180px)/2)); padding-right:max(1.5rem,calc((100% - 1180px)/2)); }.vegas-hero h1 { font-size:clamp(3rem,6vw,5.1rem); }.vegas-hero__stats { display:grid; grid-template-columns:repeat(3,1fr); gap:.7rem; }.vegas-hero__stats div { padding:1rem .8rem; border:1px solid rgba(255,255,255,.23); border-radius:12px; background:rgba(3,30,26,.28); }.vegas-hero__stats strong { display:block; color:#fff; font-family:Georgia,serif; font-size:2rem; }.vegas-hero__stats span { color:#b9ddd6; font-size:.74rem; line-height:1.2; }
 .booking-desk { width:min(1180px,calc(100% - 3rem)); margin:0 auto; padding:clamp(4rem,8vw,6.5rem) 0; }.booking-desk__intro { display:grid; grid-template-columns:minmax(0,.85fr) minmax(280px,.55fr); gap:2rem; align-items:end; margin-bottom:2rem; }.booking-desk__intro h2 { margin:.55rem 0 0; font-family:Georgia,serif; font-size:clamp(2.3rem,4vw,3.7rem); line-height:1; letter-spacing:-.05em; }.booking-desk__intro > p:last-child { margin:0; color:#63706d; line-height:1.7; }.booking-choices { display:grid; grid-template-columns:repeat(4,1fr); gap:.9rem; }.booking-choices a { display:flex; min-height:250px; flex-direction:column; padding:1.25rem; border:1px solid #d5e4e0; border-radius:13px; background:#fff; text-decoration:none; transition:transform .15s ease,box-shadow .15s ease; }.booking-choices a:hover { transform:translateY(-3px); box-shadow:0 12px 28px rgba(0,75,64,.12); text-decoration:none; }.booking-choices span { color:#007a68; font-size:.7rem; font-weight:800; letter-spacing:.11em; text-transform:uppercase; }.booking-choices strong { margin:.7rem 0 .6rem; color:#17221f; font-family:Georgia,serif; font-size:1.42rem; line-height:1.05; }.booking-choices small { color:#62706c; font-size:.82rem; line-height:1.55; }.booking-choices b { margin-top:auto; padding-top:1rem; color:#007a68; font-size:.82rem; }.hotel-path, .partner-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }.hotel-path article, .partner-grid > div { padding:1.4rem; border:1px solid var(--line); border-radius:12px; background:#fff; }.hotel-path h3 { margin:0 0 .55rem; font-family:Georgia,serif; font-size:1.45rem; }.hotel-path p, .partner-grid span { display:block; margin:0 0 1rem; color:#64706d; font-size:.88rem; line-height:1.6; }.hotel-path a, .partner-grid a { color:#007a68; font-size:.85rem; }.partner-grid strong { display:block; margin-bottom:.6rem; color:#17221f; font-family:Georgia,serif; font-size:1.38rem; }.partner-note { margin:1rem 0 0; color:#66716e; font-size:.78rem; line-height:1.6; }.partner-note a { color:#007a68; }
 
+/* Photo hero ---------------------------------------------------------- */
+.booking-hero--photo {
+  background-image:
+    linear-gradient(118deg, rgba(4,32,27,.94) 0%, rgba(5,45,39,.86) 48%, rgba(6,68,58,.72) 100%),
+    image-set(url('/images/home/strip-night-hero-sm.jpg') 1x, url('/images/home/strip-night-hero.jpg') 2x);
+  background-position: center 62%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-width: 1000px) {
+  .booking-hero--photo { background-image:
+    linear-gradient(118deg, rgba(4,32,27,.94) 0%, rgba(5,45,39,.86) 48%, rgba(6,68,58,.72) 100%),
+    url('/images/home/strip-night-hero.jpg'); }
+}
+.hero-photo-credit { width:min(1180px,calc(100% - 3rem)); margin:0 auto; padding:0 0 1rem; font-size:11px; color:rgba(255,255,255,.55); }
+.hero-photo-credit a { color:rgba(255,255,255,.72); }
+
+/* Hero live stats */
+.hero-stats { display:flex; flex-wrap:wrap; gap:1.6rem; margin:1.7rem 0 0; padding:1.1rem 0 0; border-top:1px solid rgba(255,255,255,.18); list-style:none; }
+.hero-stats div strong { display:block; color:#fff; font-family:Georgia,serif; font-size:1.72rem; line-height:1; }
+.hero-stats div span { color:#a5ddd3; font-size:.76rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase; }
+
+/* Hero worked-example card */
+.hero-math-card { padding:1.5rem 1.6rem; border:1px solid rgba(255,255,255,.24); border-radius:18px; background:rgba(3,30,26,.46); box-shadow:0 25px 60px rgba(0,0,0,.22); backdrop-filter:blur(3px); }
+.hero-math-card > p { margin:0; color:#8ed7ca; font-size:.72rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+.hero-math-card h2 { margin:.55rem 0 1.1rem; color:#fff; font-family:Georgia,serif; font-size:1.6rem; line-height:1.1; }
+.hero-math-card dl { display:grid; gap:.65rem; margin:0 0 .9rem; }
+.hero-math-card .row { display:flex; align-items:baseline; justify-content:space-between; gap:1rem; color:#d5ebe6; font-size:.92rem; }
+.hero-math-card .row b { color:#fff; font-weight:700; font-variant-numeric:tabular-nums; }
+.hero-math-card .row--total { margin-top:.35rem; padding-top:.8rem; border-top:1px solid rgba(255,255,255,.22); font-size:1rem; }
+.hero-math-card .row--total span { color:#fff; font-weight:800; }
+.hero-math-card .row--total b { color:#FBBF24; font-size:1.45rem; font-family:Georgia,serif; }
+.hero-math-card > small { display:block; color:#9fc4bd; font-size:.76rem; line-height:1.5; }
+.hero-math-card > a { display:inline-block; margin-top:.9rem; color:#fff; font-size:.85rem; font-weight:800; }
+
+/* True-cost proof table ------------------------------------------------ */
+.cost-proof { background:var(--home-soft); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.cost-table-wrap { overflow-x:auto; border:1px solid #d4e5e1; border-radius:14px; background:#fff; box-shadow:var(--shadow-sm); }
+.cost-table { width:100%; min-width:620px; border-collapse:collapse; font-size:.92rem; }
+.cost-table th { padding:.85rem 1rem; background:#0F172A; color:#cbd5e1; font-size:.71rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; text-align:left; }
+.cost-table th:not(:first-child), .cost-table td:not(:first-child) { text-align:right; }
+.cost-table td { padding:.8rem 1rem; border-top:1px solid #e6eeec; color:#41504c; font-variant-numeric:tabular-nums; }
+.cost-table tbody tr:nth-child(even) { background:#fafcfb; }
+.cost-table td:first-child { color:#17221f; font-weight:700; }
+.cost-table td:first-child a { color:#17221f; }
+.cost-table .area { display:block; color:#78857f; font-size:.76rem; font-weight:400; }
+.cost-table .adds { color:#0b4f43; font-weight:800; }
+.cost-table .free { color:#0f7a52; font-weight:800; }
+.cost-table tr.is-divider td { padding:.45rem 1rem; background:#eef4f2; color:#66746f; font-size:.72rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase; text-align:left; }
+.cost-proof__foot { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem; margin-top:1.1rem; }
+.cost-proof__foot p { margin:0; color:#66716e; font-size:.79rem; line-height:1.55; }
+.cost-proof__foot a { color:#007a68; font-size:.9rem; font-weight:800; }
+
 @media (max-width: 900px) {
   .editorial-hero__grid, .section-heading, .booking-search-copy { grid-template-columns: 1fr; }
   .destination-grid, .featured-guides, .why-grid { grid-template-columns: 1fr; }
@@ -113,4 +166,9 @@ body.vegas-hub { background:#fff; overflow-x:hidden; }
   .booking-hero__grid, .booking-desk, .featured-destination { width:min(100% - 2rem,1180px); }
   .trust-strip { grid-template-columns:1fr; width:min(100% - 2rem,1180px); }.trust-strip div { border-right:0; border-bottom:1px solid #d4e5e1; }.trust-strip div:last-child { border-bottom:0; }
   .booking-choices { grid-template-columns:1fr; }.booking-choices a { min-height:0; }.vegas-hero__stats { grid-template-columns:repeat(3,1fr); }
+  .hero-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:.75rem; }
+  .hero-stats div strong { font-size:1.4rem; }
+  .hero-stats div span { font-size:.62rem; letter-spacing:.03em; }
+  .hero-math-card { padding:1.25rem 1.15rem; }
+  .hero-math-card h2 { font-size:1.35rem; }
 }
