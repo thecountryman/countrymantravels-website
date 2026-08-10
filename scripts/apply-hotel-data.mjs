@@ -126,6 +126,32 @@ for (const [slug, h] of Object.entries(hotels)) {
     `${h.area.toUpperCase()} · HOTEL FIELD GUIDE`
   );
 
+  // Hotel JSON-LD must agree with the visible tiles — search engines and
+  // assistants read this, so a stale figure here is a wrong price in results.
+  html = html.replace(
+    /(<script type="application\/ld\+json">)(\{[\s\S]*?\})(<\/script>)/g,
+    (match, open, body, close) => {
+      let data;
+      try { data = JSON.parse(body); } catch { return match; }
+      if (data['@type'] !== 'Hotel') return match;
+
+      const props = [
+        { '@type': 'PropertyValue', name: 'Resort Fee (Estimated)', value: feeLabel(h) },
+      ];
+      if (h.parkingSelf && h.parkingValet) {
+        props.push({ '@type': 'PropertyValue', name: 'Parking (Estimated)', value: parkingLabel(h) });
+      }
+      if (h.roomSize) {
+        props.push({ '@type': 'PropertyValue', name: 'Room Size (Estimated)', value: h.roomSize });
+      }
+      props.push({ '@type': 'PropertyValue', name: 'Area', value: h.area });
+      data.additionalProperty = props;
+      // Per-property smoking policy is not verified; do not assert it.
+      delete data.smokingAllowed;
+      return `${open}${JSON.stringify(data)}${close}`;
+    }
+  );
+
   writeFileSync(file, html);
   touched++;
 }
