@@ -1,0 +1,88 @@
+{
+  "reviewedAt": "2026-08-17",
+  "displayModifications": "Files are resized for web delivery and may be cropped by responsive CSS.",
+  "images": [
+    {
+      "file": "/assets/images/disney-world/main-street-kaleb-tapp.jpg",
+      "creator": "Kaleb Tapp",
+      "sourcePage": "https://unsplash.com/photos/Gndv5HXsx28",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "depicts": "Main Street U.S.A. and Cinderella Castle at Walt Disney World",
+      "depictsConfirmed": true
+    },
+    {
+      "file": "/assets/images/disney-world/epcot-monorail-brian-mcgowan.jpg",
+      "creator": "Brian McGowan",
+      "sourcePage": "https://unsplash.com/photos/6ewxojjWaCc",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "depicts": "Walt Disney World monorail and Imagination pavilion at EPCOT",
+      "depictsConfirmed": true
+    },
+    {
+      "file": "/assets/images/disney-world/castle-younho-choo.jpg",
+      "creator": "Younho Choo",
+      "sourcePage": "https://unsplash.com/photos/f6ImWlMhn18",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "depicts": "Cinderella Castle at Walt Disney World",
+      "depictsConfirmed": true
+    },
+    {
+      "file": "/assets/images/disney-world/tomorrowland-christian-lambert.jpg",
+      "creator": "Christian Lambert",
+      "sourcePage": "https://unsplash.com/photos/ffr8KZzfh10",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "depicts": "Tomorrowland at Magic Kingdom, Walt Disney World",
+      "depictsConfirmed": true
+    },
+    {
+      "file": "/assets/images/disney-world/resorts/contemporary-bay-lake-tower.jpg",
+      "creator": "Scdis32",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:BayLakeTower.JPG",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "depicts": "Bay Lake Tower at Disney's Contemporary Resort",
+      "depictsConfirmed": true
+    },
+    {
+      "file": "/assets/images/disney-world/resorts/grand-floridian.jpg",
+      "creator": "Micha L. Rieser",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Disney%27s-Grand-Floridian-Resort.jpg",
+      "license": "Attribution",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Attribution",
+      "depicts": "Disney's Grand Floridian Resort and Spa",
+      "depictsConfirmed": true
+    },
+    {
+      "file": "/assets/images/disney-world/resorts/polynesian-village.jpg",
+      "creator": "Sam Howzit",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Disney%27s_Polynesian_Village_Resort_(18496928622).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "depicts": "Disney's Polynesian Village Resort",
+      "depictsConfirmed": true
+    },
+    {
+      "file": "/assets/images/disney-world/resorts/wilderness-lodge.jpg",
+      "creator": "Sam Howzit",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Disney%27s_Wilderness_Lodge_at_dusk.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "depicts": "Disney's Wilderness Lodge at dusk",
+      "depictsConfirmed": true
+    },
+    {
+      "file": "/assets/images/disney-world/resorts/fort-wilderness.jpg",
+      "creator": "Benjamin D. Esham",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fort_Wilderness_cabin.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "depicts": "Cabin at Disney's Fort Wilderness Resort and Campground",
+      "depictsConfirmed": true,
+      "adaptationLicense": "CC BY-SA 4.0"
+    }
+  ]
+}

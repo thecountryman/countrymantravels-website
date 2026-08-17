@@ -18,6 +18,9 @@ walk(path.join(root, 'orlando'));
 const errors = [];
 const warnings = [];
 const commercial = ['prf.hn', 'expedia.com', 'viator.com', 'groupon.com', 'amazon.com'];
+const rightsPath = path.join(root, 'data', 'disney-photo-rights.json');
+const rights = JSON.parse(fs.readFileSync(rightsPath, 'utf8'));
+const rightsByFile = new Map(rights.images.map(image => [image.file, image]));
 
 for (const file of htmlFiles) {
   const html = fs.readFileSync(file, 'utf8');
@@ -54,6 +57,9 @@ for (const file of htmlFiles) {
     if (!src.startsWith('/') || src.startsWith('//')) continue;
     const clean = src.split('?')[0];
     if (!fs.existsSync(path.join(root, clean))) errors.push(`${relative}: missing image asset ${clean}`);
+    if (relative.includes('disney-world') && clean.startsWith('/assets/images/disney-world/') && !rightsByFile.has(clean)) {
+      errors.push(`${relative}: Disney image missing rights record ${clean}`);
+    }
   }
 
   const hasCommercial = commercial.some(domain => html.includes(domain));
@@ -61,6 +67,12 @@ for (const file of htmlFiles) {
   if (relative.includes('disney-world') && !html.includes('Not affiliated with or endorsed by The Walt Disney Company')) {
     warnings.push(`${relative}: independence footer text missing`);
   }
+}
+
+for (const image of rights.images) {
+  if (!fs.existsSync(path.join(root, image.file))) errors.push(`rights record missing image file ${image.file}`);
+  if (!image.creator || !image.sourcePage || !image.license || !image.licenseUrl) errors.push(`incomplete rights record ${image.file}`);
+  if (image.depictsConfirmed !== true) errors.push(`unconfirmed destination image ${image.file}`);
 }
 
 const expected = [
