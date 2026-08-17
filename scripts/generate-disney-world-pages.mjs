@@ -53,7 +53,8 @@ function affiliateNote() {
 }
 
 function photoFigure({ src, alt, photographer, photoId, className = 'dw-photo-band' }) {
-  return `<figure class="${className}"><img src="${src}" alt="${alt}" loading="lazy" decoding="async"><figcaption>Photo: <a href="https://unsplash.com/photos/${photoId}" target="_blank" rel="noopener">${photographer}</a> / Unsplash · <a href="/orlando/disney-world/photo-credits.html">Credits</a></figcaption></figure>`;
+  const loading = className === 'dw-hero-photo' ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"';
+  return `<figure class="${className}"><img src="${src}" alt="${alt}" ${loading} decoding="async"><figcaption>Photo: <a href="https://unsplash.com/photos/${photoId}" target="_blank" rel="noopener">${photographer}</a> / Unsplash · <a href="/orlando/disney-world/photo-credits.html">Credits</a></figcaption></figure>`;
 }
 
 const hotels = [
