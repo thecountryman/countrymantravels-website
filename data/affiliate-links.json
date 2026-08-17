@@ -1,4 +1,23 @@
 {
+  "orlando": {
+    "fallbacks": {
+      "hotels": {
+        "provider": "expedia",
+        "url": "https://prf.hn/click/camref:1100l5QnPk/destination:https%3A%2F%2Fwww.expedia.com%2FHotel-Search%3Fdestination%3DOrlando%252C%2520Florida",
+        "label": "Search Orlando stays and flights"
+      },
+      "things-to-do": {
+        "provider": "viator",
+        "url": "https://www.viator.com/Orlando/d663-ttd?pid=P00312896&mcid=42383&medium=link&medium_version=selector&campaign=OrlandoGuideFallback",
+        "label": "Browse Orlando tours and activities"
+      },
+      "deals": {
+        "provider": "groupon",
+        "url": "/go/groupon/orlando/index.html",
+        "label": "Check current Orlando deals"
+      }
+    }
+  },
   "new-orleans": {
     "fallbacks": {
       "hotels": {
