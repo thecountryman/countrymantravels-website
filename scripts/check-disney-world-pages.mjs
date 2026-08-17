@@ -46,6 +46,16 @@ for (const file of htmlFiles) {
     if (!fs.existsSync(target)) errors.push(`${relative}: missing internal target ${clean}`);
   }
 
+  const images = [...html.matchAll(/<img\b[^>]*src="([^"]+)"[^>]*>/g)];
+  for (const match of images) {
+    const tag = match[0];
+    const src = match[1];
+    if (!/\balt="[^"]*"/.test(tag)) errors.push(`${relative}: image missing alt attribute: ${src}`);
+    if (!src.startsWith('/') || src.startsWith('//')) continue;
+    const clean = src.split('?')[0];
+    if (!fs.existsSync(path.join(root, clean))) errors.push(`${relative}: missing image asset ${clean}`);
+  }
+
   const hasCommercial = commercial.some(domain => html.includes(domain));
   if (hasCommercial && !html.includes('Affiliate disclosure:')) errors.push(`${relative}: commercial page missing nearby disclosure`);
   if (relative.includes('disney-world') && !html.includes('Not affiliated with or endorsed by The Walt Disney Company')) {
